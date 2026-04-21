@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Feedback Software for HR, Talent & L&D Teams | Launch 360</title>
+    <meta name="description" content="Run leadership assessments, identify development gaps, and track progress across your organization. From succession planning to manager effectiveness. Book a demo.">
+    <meta name="keywords" content="talent management software, performance management tools, leadership development programs, HR tech stack">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../index.css">
+    <style>
+        /* Additional styles specific to HR landing page */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .benefit-card {
+            background: var(--clr-white);
+            padding: 2.5rem;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--clr-border);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(233, 106, 32, 0.2);
+        }
+
+        .benefit-card .icon-wrapper {
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, rgba(233, 106, 32, 0.1), rgba(233, 106, 32, 0.2));
+            border: 1px solid rgba(233, 106, 32, 0.3);
+        }
+
+        .benefit-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .benefit-card p {
+            color: var(--clr-text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Tabs */
+        .tabs-container {
+            margin-top: var(--space-lg);
+        }
+
+        .tabs-nav {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--clr-border);
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 1rem 1.5rem;
+            background: none;
+            border: none;
+            font-family: var(--font-primary);
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--clr-text-secondary);
+            cursor: pointer;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .tab-btn:hover {
+            color: var(--clr-orange);
+        }
+
+        .tab-btn.active {
+            color: var(--clr-orange);
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--clr-orange);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .use-cases-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .use-cases-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .use-case-card {
+            background: var(--clr-white);
+            padding: 2rem;
+            border-radius: var(--border-radius-md);
+            border-left: 4px solid var(--clr-orange);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .use-case-card h4 {
+            color: var(--clr-orange);
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .use-case-card p {
+            color: var(--clr-text-secondary);
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Accordion */
+        .accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .accordion-item {
+            background: var(--clr-white);
+            border-radius: var(--border-radius-sm);
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--clr-border);
+            overflow: hidden;
+        }
+
+        .accordion-header {
+            width: 100%;
+            padding: 1.5rem;
+            background: none;
+            border: none;
+            text-align: left;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--clr-text-primary);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .accordion-header:hover {
+            background: rgba(233, 106, 32, 0.03);
+        }
+
+        .accordion-icon {
+            width: 24px;
+            height: 24px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-icon::before,
+        .accordion-icon::after {
+            content: '';
+            position: absolute;
+            background: var(--clr-orange);
+            transition: var(--transition);
+        }
+
+        .accordion-icon::before {
+            width: 12px;
+            height: 2px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .accordion-icon::after {
+            width: 2px;
+            height: 12px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .accordion-item.open .accordion-icon {
+            transform: rotate(45deg);
+        }
+
+        .accordion-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .accordion-item.open .accordion-body {
+            max-height: 500px;
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        .accordion-body p {
+            color: var(--clr-text-secondary);
+            margin-bottom: 0;
+            line-height: 1.7;
+        }
+
+        /* Case Study Teaser */
+        .case-study-card {
+            background: linear-gradient(135deg, var(--clr-dark-surface), #333);
+            color: var(--clr-white);
+            padding: 3rem;
+            border-radius: var(--border-radius-lg);
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+        }
+
+        @media (max-width: 900px) {
+            .case-study-card {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        .case-study-content {
+            flex: 1;
+        }
+
+        .case-study-content .eyebrow {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .case-study-content h3 {
+            color: var(--clr-white);
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .case-study-content p {
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 1.5rem;
+        }
+
+        .case-study-visual {
+            flex: 0 0 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .case-study-icon {
+            width: 120px;
+            height: 120px;
+            background: rgba(233, 106, 32, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgba(233, 106, 32, 0.4);
+        }
+
+        .case-study-icon svg {
+            width: 48px;
+            height: 48px;
+            color: var(--clr-orange);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../../home.html" class="brand">Launch 360</a>
+            <div class="nav-links">
+                <a href="../../index.html#how-it-works">How It Works</a>
+                <a href="/whoweserve/hr-talent-ld/">Who We Serve</a>
+                <a href="../../index.html#features">Features</a>
+                <a href="../../index.html#pricing">Pricing</a>
+            </div>
+            <div class="nav-actions">
+                <a href="/login" class="login-link">Log In</a>
+                <a href="/demo/" class="btn btn-primary">Book a Demo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <header class="hero section-spacing">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Leadership Development. Talent Management. L&D Programs. All in One Platform.</h1>
+                <p class="sub-headline">Whether you're building a succession plan, running leadership assessments, or tracking development ROI — Launch 360 gives HR, Talent, and L&D teams one simple platform. No consulting fees. No certification.</p>
+                <div class="hero-cta-group">
+                    <a href="/demo/" class="btn btn-primary btn-large">Book a Demo</a>
+                    <a href="/templates/" class="btn btn-text">Explore Survey Library &rarr;</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-container float-animation">
+                    <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" style="border-radius: 12px;">
+                        <rect width="400" height="300" fill="#f7f4f1"/>
+                        <rect x="20" y="20" width="360" height="50" rx="8" fill="#fff" stroke="#e96a20" stroke-width="2"/>
+                        <text x="40" y="50" font-family="Inter" font-size="14" font-weight="600" fill="#1a1a1a">HR Dashboard</text>
+                        <rect x="35" y="58" width="80" height="4" rx="2" fill="#e96a20"/>
+                        <rect x="20" y="90" width="170" height="100" rx="8" fill="#fff" stroke="#ebe3db" stroke-width="1"/>
+                        <text x="35" y="115" font-family="Inter" font-size="12" font-weight="600" fill="#1a1a1a">Active Assessments</text>
+                        <text x="35" y="150" font-family="Inter" font-size="32" font-weight="800" fill="#e96a20">24</text>
+                        <rect x="20" y="210" width="170" height="70" rx="8" fill="#fff" stroke="#ebe3db" stroke-width="1"/>
+                        <text x="35" y="235" font-family="Inter" font-size="12" font-weight="600" fill="#1a1a1a">Completion Rate</text>
+                        <text x="35" y="265" font-family="Inter" font-size="24" font-weight="700" fill="#1a1a1a">87%</text>
+                        <rect x="210" y="90" width="170" height="190" rx="8" fill="#fff" stroke="#ebe3db" stroke-width="1"/>
+                        <text x="225" y="115" font-family="Inter" font-size="12" font-weight="600" fill="#1a1a1a">Leadership Pipeline</text>
+                        <rect x="225" y="135" width="140" height="8" rx="4" fill="#ebe3db"/>
+                        <rect x="225" y="135" width="110" height="8" rx="4" fill="#e96a20"/>
+                        <text x="225" y="165" font-family="Inter" font-size="10" fill="#555">Executive Ready: 12</text>
+                        <text x="225" y="185" font-family="Inter" font-size="10" fill="#555">High Potential: 28</text>
+                        <text x="225" y="205" font-family="Inter" font-size="10" fill="#555">Developing: 45</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 2: Key Benefits -->
+    <section class="section-spacing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Everything you need to run leadership development at scale</h2>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card fade-up">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+                    </div>
+                    <h3>One Dashboard, Unlimited Programs</h3>
+                    <p>Run leadership assessments across your entire organization from a single interface. Aggregate data, track trends, and measure progress over time.</p>
+                </div>
+
+                <div class="benefit-card fade-up" style="transition-delay: 100ms;">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                    </div>
+                    <h3>Aggregate Data Across Teams</h3>
+                    <p>See leadership strengths and gaps at the department, region, or company level. Identify systemic development needs. Track ROI of L&D initiatives.</p>
+                </div>
+
+                <div class="benefit-card fade-up" style="transition-delay: 200ms;">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <h3>Integrate With Your HR Tech Stack</h3>
+                    <p>Connect with Workday, BambooHR, Slack, and other tools you already use. No custom development required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Use Cases -->
+    <section class="section-spacing bg-light">
+        <div class="container container-sm">
+            <div class="section-header text-center">
+                <h2>How HR, Talent, and L&D teams use Launch 360</h2>
+                <p class="sub-headline">Select your role to see relevant use cases</p>
+            </div>
+
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="hr-leaders">HR Leaders</button>
+                    <button class="tab-btn" data-tab="talent-management">Talent Management</button>
+                    <button class="tab-btn" data-tab="ld-professionals">L&D Professionals</button>
+                </div>
+
+                <div class="tab-content active" id="hr-leaders">
+                    <div class="use-cases-grid">
+                        <div class="use-case-card">
+                            <h4>Succession Planning</h4>
+                            <p>Assess readiness for future leadership roles. Build data-driven succession plans with confidence.</p>
+                        </div>
+                        <div class="use-case-card">
+                            <h4>High-Potential Identification</h4>
+                            <p>Go beyond manager nominations. Use 360 data to identify emerging leaders based on peer and team feedback.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="talent-management">
+                    <div class="use-cases-grid">
+                        <div class="use-case-card">
+                            <h4>Leadership Pipeline Assessment</h4>
+                            <p>Identify strengths and development gaps across your leadership pipeline. Track progress over time.</p>
+                        </div>
+                        <div class="use-case-card">
+                            <h4>Talent Review Facilitation</h4>
+                            <p>Bring 360 data into talent reviews. Objective feedback to support calibration discussions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="ld-professionals">
+                    <div class="use-cases-grid">
+                        <div class="use-case-card">
+                            <h4>Program ROI Measurement</h4>
+                            <p>Measure the impact of leadership development programs. Compare pre- and post-assessment data.</p>
+                        </div>
+                        <div class="use-case-card">
+                            <h4>Pre/Post Program Tracking</h4>
+                            <p>Assess leaders before and after training. Quantify improvement. Justify L&D investment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Objection Handlers (Accordion) -->
+    <section class="section-spacing">
+        <div class="container container-sm">
+            <div class="section-header text-center">
+                <h2>Questions HR, Talent, and L&D leaders ask us</h2>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How does this integrate with our existing HRIS or LMS?</span>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Launch 360 integrates with leading HR platforms through our API and Zapier connections. We provide step-by-step integration guides for Workday, BambooHR, and Slack. For custom integrations, our Enterprise plan includes dedicated support.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Can we customize surveys to match our competency model?</span>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Yes. Start with any of our 20+ pre-built surveys, then customize competencies, rating scales, and open-ended questions. You can also build entirely custom assessments from our library of 400+ questions.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How do we measure ROI of our leadership development programs?</span>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Run assessments before and after your program. Compare results to measure improvement. Our aggregate reporting shows progress at the individual, team, and organizational level. Export data for board presentations.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Is our leadership data secure and GDPR compliant?</span>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Yes. Launch 360 uses bank-level encryption (256-bit SSL), SOC 2 Type II compliant infrastructure, and GDPR-compliant data handling. All feedback is confidential by default.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How is this different from our annual performance review process?</span>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>360 feedback complements annual reviews by providing multi-rater insights from peers, direct reports, and managers — not just a single manager's perspective. Many organizations use Launch 360 for development purposes (not compensation) to encourage honest, growth-focused feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Case Study Teaser -->
+    <section class="section-spacing">
+        <div class="container">
+            <div class="case-study-card fade-up">
+                <div class="case-study-content">
+                    <span class="eyebrow">Customer Success</span>
+                    <h3>How a healthcare L&D team built a custom leadership program in 2 weeks</h3>
+                    <p>See how this organization customized our Emerging Leader survey to match their competency model — without any certification or external consultants.</p>
+                    <a href="/case-studies/healthcare-leadership-program/" class="btn btn-primary">Read Case Study &rarr;</a>
+                </div>
+                <div class="case-study-visual">
+                    <div class="case-study-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Final CTA -->
+    <section class="section-spacing glass-cta">
+        <div class="container container-sm text-center">
+            <h2>Ready to scale your leadership development?</h2>
+            <p class="sub-headline">Join HR, Talent, and L&D teams using Launch 360 to build better leaders faster.</p>
+
+            <div class="final-cta-group mt-4">
+                <a href="/demo/" class="btn btn-primary btn-large">Book a Demo</a>
+                <a href="/sample-report/" class="btn btn-outline">Download Sample Report &rarr;</a>
+            </div>
+        </div>
+        <div class="bg-blur bg-blur-1"></div>
+        <div class="bg-blur bg-blur-2"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container content-between">
+            <div class="footer-brand">
+                <h3>Launch 360</h3>
+                <p>Leadership insight accessible to every organization.</p>
+            </div>
+            <div class="footer-links">
+                <a href="/about/">About Us</a>
+                <a href="/contact/">Contact</a>
+                <a href="/privacy/">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../../script.js"></script>
+    <script>
+        // Tabs functionality
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all tabs
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+                // Add active class to clicked tab
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
+
+        // Accordion functionality
+        document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const item = header.parentElement;
+                const isOpen = item.classList.contains('open');
+
+                // Close all items
+                document.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('open'));
+
+                // Open clicked item if it wasn't open
+                if (!isOpen) {
+                    item.classList.add('open');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
