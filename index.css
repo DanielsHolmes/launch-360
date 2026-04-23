@@ -832,3 +832,367 @@ p {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ========================================
+   HOW IT WORKS PAGE STYLES
+   ======================================== */
+
+/* Steps Section */
+.steps-section {
+    padding: var(--space-lg) 0;
+    background: var(--clr-white);
+}
+
+.step {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.step:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 900px) {
+    .step {
+        grid-template-columns: 60px 1fr;
+        gap: 1.5rem;
+    }
+
+    .step-visual {
+        grid-column: 1 / -1;
+        order: 3;
+    }
+}
+
+.step-number {
+    width: 80px;
+    height: 80px;
+    background: var(--clr-orange);
+    color: var(--clr-white);
+    border-radius: var(--border-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+    box-shadow: 0 8px 20px rgba(233, 106, 32, 0.3);
+}
+
+@media (max-width: 900px) {
+    .step-number {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
+
+.step-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: var(--clr-text-primary);
+}
+
+.step-content p {
+    color: var(--clr-text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.step-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.time-estimate {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--clr-text-secondary);
+    font-weight: 500;
+}
+
+.time-estimate::before {
+    content: '⏱';
+}
+
+.note {
+    font-size: 0.85rem;
+    color: var(--clr-text-light);
+    font-style: italic;
+}
+
+.step-cta {
+    color: var(--clr-orange);
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.step-cta:hover {
+    color: var(--clr-orange-dark);
+    transform: translateX(5px);
+}
+
+.step-visual {
+    background: var(--clr-beige);
+    border-radius: var(--border-radius-md);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+}
+
+.step-visual img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Optional Services */
+.optional-services {
+    padding: var(--space-lg) 0;
+    background: var(--clr-beige);
+}
+
+.optional-services h2 {
+    text-align: center;
+    margin-bottom: var(--space-md);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 900px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.service-card {
+    background: var(--clr-white);
+    padding: 2.5rem;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--clr-border);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    color: var(--clr-text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.service-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--clr-text-primary);
+    margin-bottom: 1.5rem;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: var(--space-lg) 0;
+    background: var(--clr-white);
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: var(--space-md);
+}
+
+.faq-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--clr-text-primary);
+    text-align: left;
+    transition: var(--transition);
+}
+
+.faq-question:hover {
+    color: var(--clr-orange);
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--clr-orange);
+    transition: var(--transition);
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+    padding-bottom: 1.5rem;
+    color: var(--clr-text-secondary);
+    line-height: 1.7;
+}
+
+.faq-cta {
+    text-align: center;
+    margin-top: var(--space-md);
+}
+
+/* Footer CTA */
+.footer-cta {
+    padding: var(--space-lg) 0;
+    background: linear-gradient(135deg, rgba(233, 106, 32, 0.05), rgba(233, 106, 32, 0.1));
+    text-align: center;
+}
+
+.footer-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-cta p {
+    color: var(--clr-text-secondary);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navigation active state */
+.nav-links a.active {
+    color: var(--clr-orange);
+    font-weight: 600;
+}
+
+/* Button outline style */
+.btn-outline {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--clr-orange);
+    color: var(--clr-orange);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-outline:hover {
+    background: var(--clr-orange);
+    color: var(--clr-white);
+}
+
+/* Navbar improvements */
+.nav-logo img {
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    color: var(--clr-text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: var(--clr-orange);
+}
+
+@media (max-width: 900px) {
+    .nav-menu {
+        display: none;
+    }
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--clr-white);
+    min-width: 220px;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--clr-border);
+    z-index: 1000;
+    padding: 0.5rem 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    color: var(--clr-text-primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.dropdown-content a:hover {
+    background: var(--clr-beige);
+    color: var(--clr-orange);
+}
+
+.dropdown-arrow {
+    font-size: 0.7rem;
+    margin-left: 0.25rem;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Feedback for Leaders | Launch 360</title>
+    <meta name="description" content="Get honest, actionable feedback from your team, peers, and managers. Identify your leadership strengths and accelerate your growth. Confidential. No certification required.">
+    <meta name="keywords" content="360 feedback tool for leaders, leadership assessment, how to get feedback as a leader">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Leaders page specific styles */
+        .benefits-grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .benefits-grid-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .benefit-card-large {
+            background: var(--clr-white);
+            padding: 2.5rem;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--clr-border);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .benefit-card-large:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .benefit-card-large .icon-wrapper {
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, rgba(233, 106, 32, 0.1), rgba(233, 106, 32, 0.2));
+            border: 1px solid rgba(233, 106, 32, 0.3);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+        }
+
+        .checklist-section {
+            background: var(--clr-beige);
+        }
+
+        .checklist-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        @media (max-width: 900px) {
+            .checklist-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--clr-border);
+            font-size: 1.1rem;
+        }
+
+        .checklist li:last-child {
+            border-bottom: none;
+        }
+
+        .checklist .check-icon {
+            width: 24px;
+            height: 24px;
+            background: var(--clr-orange);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            counter-reset: step;
+        }
+
+        @media (max-width: 900px) {
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .step-card {
+            background: var(--clr-white);
+            padding: 2.5rem;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--clr-border);
+            position: relative;
+        }
+
+        .step-card::before {
+            counter-increment: step;
+            content: "0" counter(step);
+            position: absolute;
+            top: -15px;
+            left: 2rem;
+            background: var(--clr-orange);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 800;
+            font-size: 1.1rem;
+        }
+
+        .step-card h3 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .step-card p {
+            color: var(--clr-text-secondary);
+        }
+
+        .faq-section-leaders {
+            background: var(--clr-white);
+        }
+
+        .final-cta-leaders {
+            background: linear-gradient(135deg, rgba(233, 106, 32, 0.05), rgba(233, 106, 32, 0.1));
+        }
+
+        /* Dropdown styles */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--clr-white);
+            min-width: 220px;
+            box-shadow: var(--shadow-md);
+            border-radius: var(--border-radius-sm);
+            border: 1px solid var(--clr-border);
+            z-index: 1000;
+            padding: 0.5rem 0;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 0.75rem 1.25rem;
+            color: var(--clr-text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .dropdown-content a:hover {
+            background: var(--clr-beige);
+            color: var(--clr-orange);
+        }
+
+        .dropdown-arrow {
+            font-size: 0.7rem;
+            margin-left: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Launch 360</a>
+            <div class="nav-links">
+                <a href="how-it-works.html">How It Works</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Who We Serve <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="hr-talent-ld.html">HR, Talent & L&D</a>
+                        <a href="executive-coaching.html">Executive Coaches</a>
+                        <a href="leaders.html" class="active">Leaders & Executives</a>
+                    </div>
+                </div>
+                <a href="templates.html">Survey Library</a>
+                <a href="pricing.html">Pricing</a>
+            </div>
+            <div class="nav-actions">
+                <a href="/login" class="login-link">Log In</a>
+                <a href="demo.html" class="btn btn-primary">Book a Demo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <header class="hero section-spacing">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Get Honest Feedback. Become a Better Leader.</h1>
+                <p class="sub-headline">Most leaders don't get the feedback they need to grow. Launch 360 gives you confidential, actionable insights from your team, peers, and managers — all in one clear report.</p>
+                <div class="hero-cta-group">
+                    <a href="sample-report.html" class="btn btn-primary btn-large">See a Sample Report</a>
+                    <a href="#how-it-works-leaders" class="btn btn-text">How It Works →</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-container">
+                    <img src="https://via.placeholder.com/600x400/f7f4f1/e96a20?text=Leadership+Feedback+Report" alt="Leadership Feedback Report" class="dashboard-preview">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 2: Key Benefits -->
+    <section class="section-spacing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Why executives and leaders trust Launch 360</h2>
+            </div>
+            <div class="benefits-grid-3">
+                <div class="benefit-card-large fade-up">
+                    <div class="icon-wrapper">🔒</div>
+                    <h3>Confidential by Default</h3>
+                    <p>Your team and peers give honest feedback because their responses are anonymous. You get the truth — not what people think you want to hear.</p>
+                </div>
+                <div class="benefit-card-large fade-up" style="transition-delay: 100ms;">
+                    <div class="icon-wrapper">📊</div>
+                    <h3>Clear, Actionable Insights</h3>
+                    <p>No confusing charts or overwhelming data. Your report shows exactly where you're strong and where to focus development — with specific examples from raters.</p>
+                </div>
+                <div class="benefit-card-large fade-up" style="transition-delay: 200ms;">
+                    <div class="icon-wrapper">📈</div>
+                    <h3>Measure Progress Over Time</h3>
+                    <p>Run assessments annually or quarterly. Track your growth. See how your leadership impact evolves as you develop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: What You Get (Checklist) -->
+    <section class="checklist-section section-spacing">
+        <div class="container">
+            <div class="checklist-grid">
+                <div>
+                    <h2>What's included in your leadership assessment</h2>
+                    <ul class="checklist">
+                        <li><span class="check-icon">✓</span> Confidential feedback from peers, team, and managers</li>
+                        <li><span class="check-icon">✓</span> Clear strengths identified</li>
+                        <li><span class="check-icon">✓</span> Priority development areas</li>
+                        <li><span class="check-icon">✓</span> Verbatim comments organized by theme</li>
+                        <li><span class="check-icon">✓</span> Self vs. rater comparison</li>
+                        <li><span class="check-icon">✓</span> Action planning worksheet</li>
+                        <li><span class="check-icon">✓</span> PDF report to share with your coach or HR</li>
+                    </ul>
+                    <div class="mt-2">
+                        <a href="sample-report.html" class="btn btn-primary">Download Sample Report →</a>
+                    </div>
+                </div>
+                <div class="fade-up">
+                    <img src="https://via.placeholder.com/500x600/f7f4f1/e96a20?text=Report+Preview" alt="Sample Report Preview" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: How It Works for Leaders -->
+    <section id="how-it-works-leaders" class="section-spacing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>How it works</h2>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card fade-up">
+                    <h3>Your HR team or coach sets up the assessment</h3>
+                    <p>They choose the survey, add your raters, and launch. You don't need to do anything yet.</p>
+                </div>
+                <div class="step-card fade-up" style="transition-delay: 100ms;">
+                    <h3>Raters provide confidential feedback</h3>
+                    <p>Your peers, team members, and managers share their honest input — anonymously.</p>
+                </div>
+                <div class="step-card fade-up" style="transition-delay: 200ms;">
+                    <h3>You receive your report</h3>
+                    <p>Clear, actionable insights delivered to you. Review with your coach, HR partner, or on your own.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: FAQ for Leaders -->
+    <section class="faq-section-leaders section-spacing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Frequently asked questions from leaders</h2>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Will I know who said what?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. Feedback is confidential by default. Individual raters are never identified. Only aggregated data and themes are shown.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is this connected to my performance review or compensation?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>That's up to your organization. Most companies use Launch 360 for development purposes only — not for compensation decisions — to encourage honest feedback.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does it take?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The assessment takes 10-15 minutes to complete. Your raters spend about the same amount of time.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do I use the report to grow?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Your report includes an action planning worksheet. Many leaders also choose to review their results with a coach or HR partner (we offer report review sessions).</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I take the assessment again to track my progress?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Many leaders run assessments annually or quarterly to measure growth over time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Final CTA -->
+    <section class="final-cta-leaders section-spacing">
+        <div class="container text-center">
+            <h2>Ready to get the feedback you deserve?</h2>
+            <p class="mb-2">Talk to your HR team or coach about setting up your Launch 360 assessment.</p>
+            <a href="sample-report.html" class="btn btn-primary btn-large">Download a sample report →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="content-between">
+                <div class="footer-brand">
+                    <h3>Launch 360</h3>
+                    <p>Leadership insight without the complexity.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="how-it-works.html">How It Works</a>
+                    <a href="templates.html">Survey Library</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="sample-report.html">Sample Report</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <p>&copy; 2026 Launch 360. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
