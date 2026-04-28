@@ -1,0 +1,1640 @@
+﻿Part 1: Homepage
+Page Metadata
+Element
+	Content
+	Page Title (SEO)
+	360 Feedback Tool for Leadership Development
+	Meta Description
+	Run 360-degree feedback assessments without certification. 20+ ready-to-use surveys, confidential reporting, and actionable insights. Book a demo today.
+	Primary Keyword
+	360 feedback tool
+	Secondary Keywords
+	360 degree feedback software, leadership assessment tools, performance management tools
+	H1
+	Leadership Insight. No Certification Required.
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	Headline (H1)
+	Leadership Insight. No Certification Required.
+	Sub-headline
+	The simplest way to run 360-degree feedback programs. 20+ ready-to-use surveys, confidential reporting, and zero consulting fees. Get actionable leadership insights in days, not months.
+	Primary CTA Button
+	Book a Demo
+	Secondary CTA (Text Link)
+	See Sample Report →
+	Trust Badge (below CTAs)
+	Trusted by HR teams and executive coaches nationwide
+	Hero Visual
+	Animated dashboard preview showing survey creation flow (3-5 seconds loop)
+	Section 2: Social Proof
+Element
+	Content
+	Headline
+	Trusted by organizations scaling leadership development
+	Logo Cloud
+	Placeholder for client logos (from current website)
+	Stat 1
+	20+ ready-to-use surveys
+	Stat 2
+	400+ questions in competency library
+	Stat 3
+	Used across all industries
+	Stat 4
+	No certification required — ever
+	Section 3: Who We Serve (Persona Navigation)
+Element
+	Content
+	Headline
+	Built for the way you lead development
+	Sub-headline
+	One platform. Three powerful use cases.
+	Card 1: HR, Talent & L&D Professionals
+Element
+	Content
+	Icon
+	Building/Organization icon
+	Headline
+	HR, Talent & L&D Professionals
+	Description
+	Run leadership assessments, identify development gaps, and track progress across your organization. From succession planning to manager effectiveness.
+	CTA
+	Learn More →
+	Link
+	/whoweserve/hr-talent-ld/
+	Card 2: Executive Coaches & Consultants
+Element
+	Content
+	Icon
+	Person/Star icon
+	Headline
+	Executive Coaches & Consultants
+	Description
+	Deliver breakthrough coaching moments with data clients trust. Multi-client dashboard. No certification required.
+	CTA
+	Learn More →
+	Link
+	/solutions/executive-coaching/
+	Card 3: Leaders & Executives (Receiving Feedback)
+Element
+	Content
+	Icon
+	User/Crown icon
+	Headline
+	Leaders & Executives
+	Description
+	Gain honest, actionable feedback from your team, peers, and managers. Identify your strengths and accelerate your leadership growth.
+	CTA
+	Learn More →
+	Link
+	/solutions/leaders/
+	________________
+
+
+Section 4: The Launch 360 Difference
+Element
+	Content
+	Headline
+	Why HR leaders and coaches choose Launch 360
+	Sub-headline
+	Four reasons organizations are switching from traditional 360 providers
+	Card 1
+Element
+	Content
+	Icon
+	Certificate/Slash icon
+	Headline
+	No Certification Required
+	Description
+	Start immediately. No training. No facilitator certification. No hidden requirements.
+	Card 2
+Element
+	Content
+	Icon
+	Document/Library icon
+	Headline
+	20+ Ready-to-Use Surveys
+	Description
+	Pre-built assessments for every role. Or build your own from our library of 400+ questions.
+	Card 3
+Element
+	Content
+	Icon
+	Heart/Star icon
+	Headline
+	Personal Impact Survey
+	Description
+	Our exclusive strengths-based assessment. Captures when leaders are at their best — not just their gaps.
+	Card 4
+Element
+	Content
+	Icon
+	Chart/Report icon
+	Headline
+	Confidential, Actionable Reports
+	Description
+	Clear insights leaders actually use. Download PDF reports.
+	________________
+
+
+Section 5: Featured Product — Personal Impact Survey
+Element
+	Content
+	Eyebrow
+	Exclusive Feature
+	Headline
+	See leaders at their best
+	Sub-headline
+	Most 360s focus on gaps. The Personal Impact Survey captures when leaders shine — through the eyes of those who know them.
+	Description
+	Rooted in positive psychology, this unique assessment invites raters to share stories and examples of exceptional leadership. The result is a narrative report that builds confidence and authenticity — not a list of deficiencies.
+	Bullet 1
+	Standalone or integrated into any 360 review
+	Bullet 2
+	Narrative report with real stories, not just scores
+	Bullet 3
+	Builds confidence by amplifying what leaders do best
+	Visual
+	Sample report excerpt (anonymized, 2-3 paragraphs showing narrative feedback)
+	CTA Button
+	Explore Personal Impact Survey
+	Link
+	/personal-impact-survey/
+	________________
+
+
+Section 6: How It Works (3 Steps)
+Element
+	Content
+	Headline
+	From setup to insights in minutes
+	Sub-headline
+	No IT team. No consultants. No certification.
+	Step 1
+Element
+	Content
+	Number
+	01
+	Headline
+	Choose or Customize
+	Description
+	Select from 20+ pre-built leadership surveys or build your own from our library of 400+ questions. Tailor your assessment with rich open-ended, verbatim feedback options.
+	Step 2
+Element
+	Content
+	Number
+	02
+	Headline
+	Invite Raters
+	Description
+	Add participants (self + up to 19 raters per survey; Enterprise plans include 40 raters). Automated email invitations with reminders. Confidential feedback guaranteed. Additional rater seats available for purchase.
+	Step 3
+Element
+	Content
+	Number
+	03
+	Headline
+	Get Actionable Insights
+	Description
+	Generate clear PDF reports instantly. Identify strengths, development areas, and themes. Download and share with coaching notes.
+	Secondary CTA
+	See a Sample Report →
+	Link
+	/sample-report/
+	
+
+________________
+
+
+Section 7: Testimonials
+Element
+	Content
+	Headline
+	Trusted by leaders who demand results
+	Sub-headline
+	Real stories from HR leaders, L&D managers, and executive coaches
+	(Use the same testimonials currently on the homepage)
+________________
+
+
+Section 8: Pricing Teaser
+Element
+	Content
+	Headline
+	Simple, transparent pricing
+	Sub-headline
+	No hidden fees. No per-seat surprises. Just pay for the surveys you need.
+	CTA Button
+	View Full Pricing
+	Link
+	/pricing/
+	________________
+
+
+Section 9: Final CTA
+Element
+	Content
+	Headline
+	Start building better leaders today
+	Sub-headline
+	No certification. No consulting fees. Just actionable leadership insights.
+	Primary CTA
+	Book a Demo
+	Secondary CTA
+	View Survey Library →
+	Link (Primary)
+	/demo/
+	Link (Secondary)
+	/templates/
+	
+
+	
+
+	________________
+
+
+Part 2: Who We Serve Landing Pages
+Page 2.1: HR, Talent & L&D Professionals
+Element
+	Content
+	Page Title
+	360 Feedback Software for HR, Talent & L&D Teams
+	Meta Description
+	Run leadership assessments, identify development gaps, and track progress across your organization. From succession planning to manager effectiveness. Book a demo.
+	Primary Keyword
+	talent management software
+	Secondary Keywords
+	performance management tools, leadership development programs, HR tech stack
+	URL
+	/whoweserve/hr-talent-ld/
+	H1
+	Leadership Development. Talent Management. L&D Programs. All in One Platform.
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	Leadership Development. Talent Management. L&D Programs. All in One Platform.
+	Sub-headline
+	Whether you're building a succession plan, running leadership assessments, or tracking development ROI — Launch 360 gives HR, Talent, and L&D teams one simple platform. No consulting fees. No certification.
+	Primary CTA
+	Book a Demo
+	Secondary CTA
+	View Survey Library →
+	________________
+
+
+Section 2: Key Benefits (3 columns)
+Element
+	Content
+	Headline
+	Everything you need to run leadership development at scale
+	Benefit 1
+Element
+	Content
+	Icon
+	Dashboard icon
+	Headline
+	One Dashboard, Unlimited Programs
+	Description
+	Run leadership assessments across your entire organization from a single interface. You can export survey data in CSV format and use your own business analytics tools to analyze trends and insights.
+	Benefit 2
+Element
+	Content
+	Icon
+	Download/CSV icon
+	Headline
+	Export Data for Your Own Analytics
+	Description
+	Download individual survey data as CSV files. Use your own business analytics tools to analyze trends, track progress, and measure ROI across your organization.
+	Benefit 3
+Element
+	Content
+	Icon
+	Document/Library icon
+	Headline
+	20+ Ready-to-Use Surveys
+	Description
+	Start with pre-built assessments or build custom surveys from our library of 400+ questions across 19+ general competencies and 16 functional skill areas.
+	________________
+
+
+Section 3: Use Cases
+Element
+	Content
+	Headline
+	How HR, Talent, and L&D teams use Launch 360
+	Sub-headline
+	Select your role to see relevant use cases
+	Tab 1: HR Leaders
+Use Case 1
+	Use Case 2
+	Succession Planning
+	High-Potential Identification
+	Assess readiness for future leadership roles. Build data-driven succession plans with confidence.
+	Go beyond manager nominations. Use 360 data to identify emerging leaders based on peer and team feedback.
+	Tab 2: Talent Management
+Use Case 1
+	Use Case 2
+	Leadership Pipeline Assessment
+	Talent Review Facilitation
+	Identify strengths and development gaps across your leadership pipeline. Track progress over time by comparing past reports.
+	Bring 360 data into talent reviews. Objective feedback to support calibration discussions.
+	Tab 3: L&D Professionals
+Use Case 1
+	Use Case 2
+	Program ROI Measurement
+	Pre/Post Program Tracking
+	Measure the impact of leadership development programs. Compare pre- and post-assessment data manually or export CSV for deeper analysis.
+	Assess leaders before and after training. Quantify improvement. Justify L&D investment.
+	________________
+
+
+Section 4: Objection Handlers (Accordion)
+Element
+	Content
+	Headline
+	Questions HR, Talent, and L&D leaders ask us
+	Accordion Item 1
+| Question | "Can we customize surveys to match our competency model?" |
+| Answer | Yes. Start with any of our 20+ pre-built surveys. You can choose from our competency library of 400+ questions across 19+ general competencies and 16 functional skill areas to build surveys that fit your needs. |
+Accordion Item 2
+| Question | "How do we measure ROI of our leadership development programs?" |
+| Answer | Run assessments before and after your program. Compare results manually or download CSV data to perform your own analysis. This allows you to quantify improvement and justify L&D investment. |
+Accordion Item 3
+| Question | "Is our leadership data secure?" |
+| Answer | Yes. Launch 360 uses bank-level encryption (256-bit SSL) for all data. All feedback is confidential by default. |
+Accordion Item 4
+| Question | "How is this different from our annual performance review process?" |
+| Answer | 360 feedback complements annual reviews by providing multi-rater insights from peers, direct reports, and managers — not just a single manager's perspective. Many organizations use Launch 360 for development purposes (not compensation) to encourage honest, growth-focused feedback. |
+________________
+
+
+Section 5: Final CTA
+Element
+	Content
+	Headline
+	Ready to scale your leadership development?
+	Sub-headline
+	Join HR, Talent, and L&D teams using Launch 360 to build better leaders faster.
+	Primary CTA
+	Book a Demo
+	Secondary CTA
+	Download Sample Report →
+	Page 2.2: Leaders & Executives
+Element
+	Content
+	Page Title
+	360 Feedback for Leaders
+	Meta Description
+	Get honest, actionable feedback from your team, peers, and managers. Identify your leadership strengths and accelerate your growth. Confidential. No certification required.
+	Primary Keyword
+	360 feedback tool for leaders
+	Secondary Keywords
+	leadership assessment, how to get feedback as a leader
+	URL
+	/whoweserve/leaders/
+	H1
+	Get Honest Feedback. Become a Better Leader.
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	Get Honest Feedback. Become a Better Leader.
+	Sub-headline
+	Most leaders don't get the feedback they need to grow. Launch 360 gives you confidential, actionable insights from your team, peers, and managers — all in one clear report.
+	Primary CTA
+	See a Sample Report
+	Secondary CTA
+	How It Works →
+	________________
+
+
+Section 2: Key Benefits (3 columns)
+Element
+	Content
+	Headline
+	Why executives and leaders trust Launch 360
+	Benefit 1
+Element
+	Content
+	Icon
+	Shield/Lock icon
+	Headline
+	Confidential by Default
+	Description
+	Your team and peers give honest feedback because their responses are anonymous. You get the truth — not what people think you want to hear.
+	Benefit 2
+Element
+	Content
+	Icon
+	Chart icon
+	Headline
+	Clear, Actionable Insights
+	Description
+	No confusing charts or overwhelming data. Your report shows exactly where you're strong and where to focus development — with specific examples from raters.
+	Benefit 3
+Element
+	Content
+	Icon
+	Growth arrow icon
+	Headline
+	Measure Progress Over Time
+	Description
+	Run assessments annually or quarterly. Compare past reports to track your growth and see how your leadership impact evolves.
+	________________
+
+
+Section 3: What You Get (Checklist)
+Element
+	Content
+	Headline
+	What's included in your leadership assessment
+	| ✓ | Confidential feedback from peers, team, and managers |
+| ✓ | Clear strengths identified |
+| ✓ | Priority development areas |
+| ✓ | Verbatim comments organized by theme |
+| ✓ | Self vs. rater comparison |
+| ✓ | Action planning worksheet |
+| ✓ | PDF report to share with your coach or HR |
+Element
+	Content
+	CTA
+	Download Sample Report →
+	________________
+
+
+Section 4: How It Works for Leaders (3 steps)
+Element
+	Content
+	Headline
+	How it works
+	Step 1
+Element
+	Content
+	Number
+	01
+	Headline
+	Your HR team or coach sets up the assessment
+	Description
+	They choose the survey, add your raters, and launch. You don't need to do anything yet.
+	Step 2
+Element
+	Content
+	Number
+	02
+	Headline
+	Raters provide confidential feedback
+	Description
+	Your peers, team members, and managers share their honest input — anonymously.
+	Step 3
+Element
+	Content
+	Number
+	03
+	Headline
+	You receive your report. When it is ready, you can share it with the leader.
+	Description
+	Your HR leader or coach receives the report first, then shares the PDF with you. Clear, actionable insights delivered for your development.
+	________________
+
+
+Section 5: FAQ for Leaders
+Element
+	Content
+	Headline
+	Frequently asked questions from leaders
+	FAQ 1
+| Question | Will I know who said what? |
+| Answer | No. Feedback is confidential by default. Individual raters are never identified. Only aggregated data and themes are shown. |
+FAQ 2
+| Question | Is this connected to my performance review or compensation? |
+| Answer | That's up to your organization. Most companies use Launch 360 for development purposes only — not for compensation decisions — to encourage honest feedback. |
+FAQ 3
+| Question | How long does it take? |
+| Answer | The assessment takes 10-15 minutes to complete. Your raters spend about the same amount of time. |
+FAQ 4
+| Question | How do I use the report to grow? |
+| Answer | Your report includes an action planning worksheet. Many leaders also choose to review their results with a coach or HR partner. |
+FAQ 5
+| Question | Can I take the assessment again to track my progress? |
+| Answer | Yes. Many leaders run assessments annually or quarterly. Keep your past reports to compare and track growth over time. |
+________________
+
+
+Section 6: Final CTA
+Element
+	Content
+	Headline
+	Ready to get the feedback you deserve?
+	Sub-headline
+	Talk to your HR team or coach about setting up your Launch 360 assessment.
+	CTA
+	Download a sample report →
+	________________
+
+
+Page 2.3: Executive Coaches & Consultants
+Element
+	Content
+	Page Title
+	360 Assessment Tool for Executive Coaches
+	Meta Description
+	The 360 platform built for coaches. Multi-client dashboard and the exclusive Personal Impact Survey. No certification required. Start today.
+	Primary Keyword
+	leadership coaching software
+	Secondary Keywords
+	coaching dashboard, online assessments platform, leadership assessment tools
+	URL
+	/whoweserve/executive-coaching/
+	H1
+	The 360 Platform Built for Coaches
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	The 360 Platform Built for Coaches
+	Sub-headline
+	Manage all your clients from one dashboard. No certification. No complexity. Just insights that create "aha" moments.
+	Primary CTA
+	View Pricing
+	Secondary CTA
+	See Sample Report →
+	________________
+
+
+Section 2: Key Benefits (3 columns)
+Element
+	Content
+	Headline
+	Everything you need to deliver exceptional coaching engagements
+	Benefit 1
+Element
+	Content
+	Icon
+	Multiple Users icon
+	Headline
+	Multi-Client Management Dashboard
+	Description
+	Manage all your coaching clients from a single login. Create assessments, track completion, and access PDF reports for every client — all in one place.
+	Benefit 2
+Element
+	Content
+	Icon
+	Document/Library icon
+	Headline
+	Customize Surveys for Each Client
+	Description
+	Tailor each assessment using our library of 400+ questions. Select the competencies and questions that matter most for each client's unique development goals.
+	Benefit 3
+Element
+	Content
+	Icon
+	Certificate/Slash icon
+	Headline
+	No Certification Required
+	Description
+	Start using Launch 360 today. No paid certification, no facilitator training, no waiting.
+	________________
+
+
+Section 3: Exclusive Feature — Personal Impact Survey
+Element
+	Content
+	Eyebrow
+	Exclusive for Coaches
+	Headline
+	The Personal Impact Survey
+	Sub-headline
+	A strengths-based assessment your clients will love
+	Description
+	Most 360s focus on gaps and deficiencies. The Personal Impact Survey captures when your clients are at their best — through the eyes of their peers, teams, and managers. The result is a narrative report that builds confidence, not anxiety.
+	Bullet 1
+	Use as a standalone coaching tool or integrated into full 360s
+	Bullet 2
+	Narrative feedback with real stories, not just scores
+	Bullet 3
+	Perfect for confidence-building and leadership identity work
+	CTA
+	Explore Personal Impact Survey
+	Link
+	/personal-impact-survey/
+	________________
+
+
+Section 4: Coach-Specific Features (Grid 2x2)
+Element
+	Content
+	Headline
+	Built by coaches, for coaches
+	Feature 1
+Element
+	Content
+	Icon
+	Folder/Client icon
+	Headline
+	Multi-Client Dashboard
+	Description
+	Manage all your coaching clients from a single login. Create assessments, track completion, and access reports for every client.
+	Feature 2
+Element
+	Content
+	Icon
+	Palette icon
+	Headline
+	Customize Surveys per Client
+	Description
+	Tailor each assessment for individual clients using our library of 400+ questions. Select the competencies that matter most for each engagement.
+	Feature 3
+Element
+	Content
+	Icon
+	Download/CSV icon
+	Headline
+	CSV Data Export
+	Description
+	Download raw data from each survey as a CSV file. Use your own tools to analyze trends across clients if desired.
+	Feature 4
+Element
+	Content
+	Icon
+	Star icon
+	Headline
+	Personal Impact Survey
+	Description
+	Our exclusive strengths-based assessment. Available as a standalone tool or integrated into any 360 review.
+	________________
+
+
+Section 5: Objection Handlers (Accordion)
+Element
+	Content
+	Headline
+	Questions coaches ask us
+	Accordion Item 1
+| Question | "Can my clients see their own data? Can I manage multiple clients from one account?" |
+| Answer | Yes and yes. You get a coach dashboard where you can create assessments for each client, track completion, and access reports. You receive the report first and can share the PDF with your client when ready. Everything is organized by client for easy reference. |
+Accordion Item 2
+| Question | "Does it work with my existing coaching practice?" |
+| Answer | Yes. Launch 360 integrates with your existing workflow. Download reports as PDF to share via email or your coaching platform. Download CSV data for your own analysis if needed. |
+Accordion Item 3
+| Question | "Can I customize surveys for each client?" |
+| Answer | Yes. You can tailor each assessment using our library of 400+ questions across 19+ general competencies and 16 functional skill areas. Select the questions that matter most for each client's unique development goals. |
+________________
+
+
+Section 6: Final CTA
+Element
+	Content
+	Headline
+	Join coaches using Launch 360
+	Sub-headline
+	No certification. No complexity. Just insights that create breakthroughs.
+	Primary CTA
+	View Pricing
+	Secondary CTA
+	See Sample Report
+	________________
+
+
+Part 3: Platform Pages
+Page 3.1: How It Works
+Element
+	Content
+	Page Title
+	How 360-Degree Feedback Works
+	Meta Description
+	Create, send, and analyze 360-degree feedback assessments in four simple steps. No certification required. See how Launch 360 works.
+	Primary Keyword
+	360 degree feedback
+	Secondary Keywords
+	360 feedback process, how does 360 feedback work
+	URL
+	/how-it-works/
+	H1
+	From Setup to Insights in Four Simple Steps
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	From Setup to Insights in Four Simple Steps
+	Sub-headline
+	No IT team. No consultants. No certification. Just a simple, four-step process to get actionable leadership feedback.
+	Primary CTA
+	Book a Demo
+	Secondary CTA
+	See Sample Report →
+	________________
+
+
+Section 2: Step-by-Step Guide (4 steps, full-width)
+Step 1: Create
+Element
+	Content
+	Step Number
+	01
+	Headline
+	Create Your Assessment
+	Description
+	Choose from 20+ pre-built leadership surveys or build your own using our library of 400+ questions across 19+ general competencies and 16 functional skill areas. Add open-ended question prompts per competency section or for the overall assessment.
+	Visual
+	Screenshot of survey builder interface
+	Time Estimate
+	Takes 5-10 minutes
+	CTA
+	View Survey Library →
+	Step 2: Invite
+Element
+	Content
+	Step Number
+	02
+	Headline
+	Invite Raters
+	Description
+	Add the leader being assessed (self) plus their selected raters — peers, managers, add in Senior leaders, direct reports, or external stakeholders. Launch 360 sends automated email invitations with unique, secure links. Track completion in real time.
+	Visual
+	Screenshot of rater invitation interface
+	Time Estimate
+	Takes 10-15 minutes
+	Note
+	Up to 20 raters per survey included (40 for Enterprise). Additional rater seats available for purchase.
+	Step 3: Analyze
+Element
+	Content
+	Step Number
+	03
+	Headline
+	Analyze Results
+	Description
+	As responses come in, track completion rates. When the assessment closes, generate PDF reports instantly. No waiting. No manual compilation.
+	Visual
+	Screenshot of completion tracking dashboard
+	Time Estimate
+	Real-time updates
+	Step 4: Act
+Element
+	Content
+	Step Number
+	04
+	Headline
+	Take Action
+	Description
+	Download clear, actionable PDF reports with strengths, development areas, and verbatim comments. Share reports manually with leaders. Download CSV data for your own analysis if needed.
+	Visual
+	Screenshot of sample report
+	Time Estimate
+	Reports generate instantly
+	CTA
+	Download Sample Report →
+	________________
+
+
+Section 3: Optional Services
+Element
+	Content
+	Headline
+	Need additional support? We've got you covered.
+	Service Cards (3 columns):
+Service 1
+	Service 2
+	Service 3
+	Individual 360° Report Review
+	HR/Coach Consulting Session
+	Train-the-Trainer Workshop
+	1-hour private session to interpret results. Perfect for leaders who want expert guidance.
+	1-hour consulting on best practices for running 360 programs. Ideal for HR teams.
+	3-hour virtual workshop to build internal coaching capability.
+	$275
+	$275
+	$950
+	Book Now →
+	Book Now →
+	Learn More →
+	________________
+
+
+Section 4: FAQ
+FAQ Accordion (6 items):
+1. How long does it take to set up my first assessment? → 5-10 minutes.
+2. Do I need certification or training to use Launch 360? → No. Never.
+3. How many people can be surveyed at once? → Up to 20 raters per survey (40 for Enterprise). Additional raters available for purchase.
+4. Is the feedback confidential? → Yes. Raters are anonymous by default.
+5. How quickly are reports generated? → Instantly when the assessment closes.
+6. Can I choose which questions are on a survey? → Yes. All surveys offer full customization using our library of over 400 questions.
+Element
+	Content
+	CTA
+	View All FAQs →
+	Link
+	/faq/
+	________________
+
+
+Page 3.2: Survey Library (Templates)
+Element
+	Content
+	Page Title
+	360 Leadership Assessment Templates
+	Meta Description
+	Browse 20+ pre-built 360-degree leadership assessment templates for every role. Customize using our library of 400+ questions. No certification required.
+	Primary Keyword
+	360 feedback questions
+	Secondary Keywords
+	360 degree feedback survey, survey templates, leadership assessment questions
+	URL
+	/templates/
+	H1
+	20+ Ready-to-Use Leadership Surveys
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	20+ Ready-to-Use Leadership Surveys
+	Sub-headline
+	Pre-built assessments for every leadership level — or build custom surveys using our library of 400+ questions across 19+ general competencies and 16 functional skill areas. No certification required.
+	Primary CTA
+	Book a Demo
+	Secondary CTA
+	View Sample Report
+	Section 2: Survey Grid
+Survey Cards (complete list):
+#
+	Survey Name
+	Description
+	Role Focus
+	1
+	General 360° Leadership Survey
+	Core leadership competencies for any leader
+	All Levels
+	2
+	Emerging Leader 360° Survey
+	First-time managers and high-potentials
+	Emerging Leader
+	3
+	People Manager & Front-Line Leader
+	Supervisors and team leads
+	Manager
+	4
+	Executive Leadership 360°
+	C-suite and senior leadership
+	Executive
+	5
+	Sales Leadership 360°
+	Coaching, relationships, results
+	Manager/Executive
+	6
+	Human Resources & Talent Leadership
+	HR-specific competencies
+	Manager/Executive
+	7
+	Patient Care & Clinical Practice
+	Healthcare leadership
+	Manager/Executive
+	8
+	Technology & Information Systems
+	Tech leadership
+	Manager/Executive
+	9
+	Educational Leadership
+	K-12 and higher education
+	Manager/Executive
+	10
+	Mission-Driven Leadership & Resource Stewardship
+	Nonprofit and social impact
+	Manager/Executive
+	11
+	Board Member & Trustee 360°
+	Governance leadership
+	Executive
+	12
+	Project Manager 360°
+	Project leadership
+	Manager
+	13
+	Entrepreneur & Founder 360°
+	Founder-specific competencies
+	Executive
+	14
+	Marketing & Brand Impact 360°
+	Marketing leadership
+	Manager/Executive
+	15
+	Strategic Finance 360°
+	Finance leadership
+	Manager/Executive
+	16
+	Investment Strategy & Analysis 360°
+	Investment leadership
+	Executive
+	17
+	Risk & Compliance 360°
+	Risk leadership
+	Manager/Executive
+	18
+	Customer Service & Experience 360°
+	Customer experience leadership
+	Manager
+	19
+	Personal Impact Feedback Survey
+	Strengths-based assessment — narrative report
+	All Levels
+	20
+	Change Readiness Check-In
+	Micro-survey for change initiatives
+	All Levels
+	21
+	Team Trust & Culture Pulse
+	Micro-survey for team health
+	All Levels
+	________________
+
+
+Section 3: Customization Options
+Element
+	Content
+	Headline
+	Need something more specific?
+	Sub-headline
+	Build custom surveys from our question library.
+	Description
+	Our survey builder gives you control: select from 400+ questions across 19+ general competencies and 16 functional skill areas. Add open-ended question prompts per competency section or as part of the overall assessment.
+	Bullet 1
+	400+ questions across 19+ general competencies 
+	Bullet 2
+	16 functional skill areas
+	Bullet 3
+	Save custom surveys as templates for future use
+	Visual
+	Screenshot of survey builder interface
+	CTA
+	Book a Demo to Learn More →
+	________________
+
+
+Section 4: SEO-Focused FAQ (Schema Markup)
+Element
+	Content
+	Headline
+	Frequently asked questions about 360 feedback surveys
+	FAQ 1
+| Question | What is a 360-degree feedback survey? |
+| Answer | A 360-degree feedback survey collects anonymous feedback from multiple perspectives — typically the leader being assessed (self), their manager, peers, and direct reports. This multi-rater approach provides a complete picture of leadership effectiveness. |
+FAQ 2
+| Question | How many questions are in a typical 360 assessment? |
+| Answer | Most Launch 360 surveys include 30-50 questions across 6-8 leadership competencies. You can customize the length based on your needs using our library of 400+ questions. |
+FAQ 3
+| Question | Can I choose which questions are on a survey? |
+| Answer | Yes. All surveys offer full customization using our library of over 400 questions. Select the competencies and questions that matter most for your organization. |
+FAQ 4
+| Question | How long does it take to complete a 360 survey? |
+| Answer | Most raters complete a 360 survey in 10-15 minutes. Our surveys are designed to be comprehensive but not burdensome. |
+FAQ 5
+| Question | Is 360 feedback confidential? |
+| Answer | Yes. By default, individual rater responses are anonymous. Only aggregated data is shown in reports. |
+FAQ 6
+| Question | Do I need certification to use Launch 360 surveys? |
+| Answer | No. Launch 360 has no certification requirement. Book a demo and start your first assessment. |
+________________
+
+
+Page 3.3: Personal Impact Survey
+Element
+	Content
+	Page Title
+	Personal Impact Survey
+	Meta Description
+	A unique strengths-based 360 assessment that captures when leaders are at their best. Narrative feedback, not just scores.
+	Primary Keyword
+	leadership development plan
+	Secondary Keywords
+	emotional intelligence in leadership, leadership competencies
+	URL
+	/personal-impact-survey/
+	H1
+	See Leaders at Their Best
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	Eyebrow
+	Exclusive Feature
+	H1
+	See Leaders at Their Best
+	Sub-headline
+	Most 360s focus on gaps. The Personal Impact Survey captures when leaders shine — through the eyes of those who know them.
+	Primary CTA
+	See Sample Report
+	Secondary CTA
+	View Pricing →
+	________________
+
+
+Section 2: What It Is
+Element
+	Content
+	Headline
+	A strengths-based assessment rooted in positive psychology
+	Description
+	The Personal Impact Survey invites raters to share stories and examples of when the leader demonstrated exceptional leadership, impact, or influence. Rather than rating competencies on a scale, raters describe real moments of excellence.
+	Key Point 1
+	Narrative feedback, not just scores and charts
+	Key Point 2
+	Builds confidence by highlighting authentic strengths
+	Key Point 3
+	Identifies themes across multiple raters' responses
+	Key Point 4
+	Perfect complement to traditional 360 assessments
+	________________
+
+
+Section 3: Sample Report Excerpt
+Element
+	Content
+	Headline
+	What a Personal Impact Survey report looks like
+	Description
+	A narrative report organized by theme, with verbatim comments from raters. No charts. No scores. Just real feedback about real impact.
+	Sample Report Excerpt (Visual/Text Block):
+Theme: Strategic Thinking
+"When we faced the Q3 budget crisis, [Leader] brought the team together and reframed it as an opportunity. She mapped out three scenarios — best, middle, worst — and walked us through each one with clarity and calm. I've never seen a leader turn panic into productivity so quickly."
+— Peer, Finance Department
+Theme: Team Development
+"[Leader] doesn't just delegate — he develops. He gave me a stretch assignment that I wasn't sure I could handle, then provided exactly the right level of support without micromanaging. Now I'm leading projects I wouldn't have thought possible a year ago."
+— Direct Report
+Element
+	Content
+	CTA
+	Download Full Sample Report →
+	Link
+	/sample-report/
+	________________
+
+
+Section 4: Use Cases
+Element
+	Content
+	Headline
+	Three ways to use the Personal Impact Survey
+	Use Case 1
+Element
+	Content
+	Icon
+	Standalone icon
+	Headline
+	Standalone Strengths Assessment
+	Description
+	Use the Personal Impact Survey by itself for confidence-building, leadership identity work, or as a warm-up to full 360 feedback.
+	Use Case 2
+Element
+	Content
+	Icon
+	Integration icon
+	Headline
+	Integrated Into Full 360 Reviews
+	Description
+	Add the Personal Impact Survey as a section within any 360 assessment. Leaders receive both traditional competency ratings AND narrative strengths feedback.
+	Use Case 3
+Element
+	Content
+	Icon
+	Refresh icon
+	Headline
+	Between Full 360 Cycles
+	Description
+	Use the Personal Impact Survey as a mid-cycle check-in. Keep leaders engaged and developing between comprehensive annual assessments.
+	________________
+
+
+Section 5: Who It's For
+Element
+	Content
+	Headline
+	Perfect for:
+	Audience Cards (3 columns):
+Leaders who need confidence-building feedback
+	Teams rebuilding trust after change
+	High-potentials preparing for advancement
+	Ideal for leaders who are new to their role, recovering from a difficult project, or struggling with imposter syndrome.
+	Use when trust has been damaged — acquisitions, reorganizations, or performance issues. Focuses on strengths to rebuild.
+	Help emerging leaders understand their unique value and build the confidence needed for the next level.
+	________________
+
+
+Section 6: Pricing & Availability
+Element
+	Content
+	Headline
+	Pricing
+	Plan
+	Subscription Plans
+	
+
+  
+
+Note: This part should be like this chart, you can find it here: Plans and Pricing - Launch 360
+Element
+	Content
+	CTA
+	View Full Pricing
+	Secondary CTA
+	Contact Sales
+	________________
+
+
+Page 3.4: Reporting & Analytics
+Element
+	Content
+	Page Title
+	360 Feedback Reports
+	Meta Description
+	Clear, actionable 360-degree feedback reports that leaders actually use. Identify strengths and development areas. Download sample report.
+	Primary Keyword
+	360 evaluation
+	Secondary Keywords
+	360 review best practices, how to give 360 feedback
+	URL
+	/reporting/
+	H1
+	Clear Insights. Real Action.
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	Clear Insights. Real Action.
+	Sub-headline
+	No confusing charts. No overwhelming data dumps. Just clear, actionable PDF reports that leaders actually use to grow.
+	Primary CTA
+	Download Sample Report
+	Secondary CTA
+	Book a Demo
+	________________
+
+
+Section 2: Report Features (Grid 3x2)
+Element
+	Content
+	Headline
+	What you get in every report
+	Feature 1
+Element
+	Content
+	Icon
+	Chart/Bar icon
+	Headline
+	Easy-to-Read Charts and Summaries
+	Description
+	Visual comparison between self-rating and rater feedback. See gaps at a glance.
+	Feature 2
+Element
+	Content
+	Icon
+	Target icon
+	Headline
+	Strengths and Development Areas
+	Description
+	Automatically identified top strengths and priority development areas based on rater feedback.
+	Feature 3
+Element
+	Content
+	Icon
+	Speech Bubble icon
+	Headline
+	Verbatim Comments (Confidential)
+	Description
+	Organized by theme, with rater identities protected. 
+	Feature 4
+Element
+	Content
+	Icon
+	Compare icon
+	Headline
+	Self vs. Rater Comparison
+	Description
+	See where leaders overestimate or underestimate their effectiveness compared to how others see them.
+	Feature 5
+Element
+	Content
+	Icon
+	Download icon
+	Headline
+	Export to PDF
+	Description
+	Download reports as PDF to share via email or your coaching platform.
+	Feature 6
+Element
+	Content
+	Icon
+	CSV/Spreadsheet icon
+	Headline
+	CSV Data Export
+	Description
+	Download individual survey data as CSV files. Use your own business analytics tools to analyze trends and track progress across your organization.
+	________________
+
+
+Section 3: Sample Report Visual
+Element
+	Content
+	Headline
+	See a real 360 feedback report
+	Description
+	This sample report shows the actual format and content leaders receive after completing a Launch 360 assessment.
+	
+
+Element
+	Content
+	CTA
+	Download Full Sample Report (PDF)
+	Link
+	/sample-report/
+	________________
+
+
+Section 4: Report Interpretation Support
+Element
+	Content
+	Headline
+	Need help interpreting reports?
+	Offer Cards (2 columns):
+Offer 1
+	Offer 2
+	Individual 360° Report Review
+	HR/Coach Consulting Session
+	1-hour private session with a Launch 360-trained professional. Step-by-step guidance on reading your report and creating an action plan.
+	1-hour consulting for HR teams and coaches. Learn best practices for reviewing 360 feedback with employees and leaders.
+	$275
+	$275
+	Book Session →
+	Book Session →
+	
+
+Offer 3
+	Offer 4
+	Train-the-Trainer Workshop
+	Custom Coaching
+	3-hour virtual workshop to build internal coaching capability. Equip your team to debrief 360 reports confidently.
+	Tailored coaching sessions with Nicole Nadeau, Founder of Launch 360. 30+ years of executive HR and leadership experience.
+	$950
+	Custom Quote
+	Learn More →
+	Contact Us →
+
+
+	________________
+
+
+Section 5: FAQ
+Element
+	Content
+	Headline
+	Frequently asked questions about 360 feedback reports
+	FAQ 1
+| Question | How quickly are reports generated? |
+| Answer | Reports are generated instantly when the assessment closes. No waiting. No manual compilation. |
+FAQ 2
+| Question | How do I share reports with leaders? |
+| Answer | The administrator downloads the report as a PDF and shares it manually via email or any other method they prefer. |
+FAQ 3
+| Question | Can I analyze data across multiple leaders? |
+| Answer | Yes. You can download individual survey data as CSV files and use your own business analytics tools to analyze trends, track progress, and measure ROI across your organization. |
+________________
+
+
+
+
+Part 4: Pricing Page
+Element
+	Content
+	Page Title
+	Pricing
+	Meta Description
+	Simple, transparent pricing for 360-degree feedback software. Basic ($855/mo), Pro ($1,710/mo), Enterprise ($3,420/mo), or one-time purchases. No hidden fees.
+	Primary Keyword
+	360 feedback software
+	Secondary Keywords
+	360 degree feedback tool, best 360 feedback tools
+	URL
+	/pricing/
+	H1
+	Simple, Transparent Pricing
+	
+
+Recreate this page with enhanced design: Plans and Pricing - Launch 360
+Section FAQ
+Element
+	Content
+	Headline
+	Frequently asked questions about pricing
+	FAQ 1
+| Question | What's included in each plan? |
+| Answer | All plans include access to the full platform: survey creation, customization, rater management, and PDF reporting. Differences are in survey volume, number of administrators, support level, and inclusion of the Personal Impact Survey. |
+FAQ 2
+| Question | Can I upgrade or downgrade my plan? |
+| Answer | Yes. Upgrades take effect immediately. Downgrades take effect at your next billing date. Unused surveys remain in your account. |
+FAQ 3
+| Question | What happens to unused surveys? |
+| Answer | Unused surveys never expire. They remain in your account until you use them — even if you change or cancel your plan. |
+FAQ 4
+| Question | Is there a free trial? |
+| Answer | We offer a free demo where you can see the platform in action and preview sample reports. Contact us to schedule. |
+FAQ 5
+| Question | Do surveys expire? |
+| Answer | No. Surveys you've purchased never expire, even after cancellation. |
+FAQ 6
+| Question | Can I choose which questions are on a survey? |
+| Answer | Yes. All surveys offer full customization using our library of over 400 questions. |
+FAQ 7
+| Question | Is certification really not required? |
+| Answer | Correct. Launch 360 has no certification requirement. Book a demo and start your first assessment. |
+FAQ 8
+| Question | Do you offer discounts? |
+| Answer | Yes. Volume discounts are available. Contact our sales team for details. |
+________________
+
+
+Part 5: Resource Center
+Page 5.1: Articles
+(In the short term, we can keep the article landing pages as they are while fixing the metadata setup.)
+Page 5.2: Case Studies
+(In the short term, we can keep the case studies landing pages as they are while fixing the metadata setup.)
+
+
+NOTE: HERE is the ideal configuration for the Resources Page we should implement in the future: organizing articles by category with optimized H1 tags, and applying the same structure to our case studies.
+Page 5.3: Sample Report (Gated)
+Element
+	Content
+	Page Title
+	Sample 360 Feedback Report
+	Meta Description
+	Download a real 360-degree feedback report sample. See what actionable leadership insights look like — clear charts, verbatim comments, and development priorities.
+	URL
+	/sample-report/
+	H1
+	See What a Launch 360 Report Looks Like
+	________________
+
+
+Section 1: Hero
+Element
+	Content
+	H1
+	See What a Launch 360 Report Looks Like
+	Sub-headline
+	Download a real 360-degree feedback report sample. Just enter your email to download the full PDF.
+	________________
+
+
+Section 2: Report Preview (Un-gated)
+Element
+	Content
+	Visual
+	Thumbnail/preview of first 2 pages of sample report (blurred or watermarked)
+	Description
+	This sample report includes:
+• Competency chart (self vs. rater comparison)
+• Top strengths identified
+• Priority development areas
+• Verbatim comments (anonymized, organized by theme)
+• Action planning worksheet
+	________________
+
+
+Section 3: Lead Capture Form
+Element
+	Content
+	Form Headline
+	Download the Full Sample Report
+	Field 1
+	First Name (required)
+	Field 2
+	Last Name (required)
+	Field 3
+	Work Email (required)
+	Field 4
+	Company Name (optional)
+	Field 5
+	Role (dropdown: HR/Talent/L&D
+	Privacy Note
+	We'll never share your email. Unsubscribe anytime.
+	CTA Button
+	Download Sample Report (PDF)
+	Post-Submission: Redirect to thank you page with immediate download link. Add to Klaviyo nurture sequence.
+________________
+
+
+Part 6: About Us
+Element
+	Content
+	Page Title
+	About Launch 360
+	Meta Description
+	Launch 360 was founded to make leadership insight accessible to every organization. Meet founder Nicole Nadeau and learn why we're different.
+	URL
+	/about/
+	H1
+	Making Leadership Insight Accessible to Every Organization
+	________________
+
+
+Section 1: Our Story
+Element
+	Content
+	Headline
+	Our Story
+	Content
+	Launch 360 was founded by Nicole Nadeau, a 25+ year HR executive who saw firsthand how expensive and complex leadership assessments were. Traditional 360 providers required expensive consultants, mandatory certification, and weeks of setup — putting actionable leadership insights out of reach for most organizations.
+	Content (continued)
+	Launch 360 was built to change that. Our platform removes every barrier — no certification, no consulting fees, no IT delays. Just simple, powerful 360 feedback that any organization can use.
+	Visual
+	Photo of Nicole Nadeau (professional, authentic — not AI-generated)
+	________________
+
+
+Section 2: Meet Nicole Nadeau
+Element
+	Content
+	Headline
+	Meet Nicole Nadeau, Founder
+	Bio
+	Nicole Nadeau brings over 27 years of executive HR and leadership development experience. She has held senior HR leadership roles at Fidelity Investments and other global organizations, where she designed and implemented leadership assessment programs for thousands of leaders.
+	Bio (continued)
+	As an executive coach and leadership consultant, Nicole saw the gap between what organizations needed — simple, accessible 360 feedback — and what legacy providers offered. She founded Launch 360 to democratize leadership insight, making it available to any organization, regardless of budget or internal expertise.
+	Credentials
+	• 25+ years executive HR experience
+• Certified Executive Coach
+• Leadership development consultant
+	CTA
+	Connect on LinkedIn →
+	________________
+
+
+Section 3: Why Our Transformation
+Element
+	Content
+	Headline
+	Why We Evolved Launch 360
+	Content
+	Launch 360 originally launched as a one-off assessment tool. But we heard the same feedback from customers: "We want to use this more than once every 18 months."
+	Content (continued)
+	Our enhanced version is our transition to a subscription SaaS platform. Now organizations can run continuous feedback programs — not just annual assessments. With this new offer, you get recurring surveys and our exclusive Personal Impact Survey. Same simplicity. More power.
+	________________
+
+
+Part 7: FAQ
+(All FAQ content consolidated from previous sections)
+________________
+
+
+Part 8: Contact & Support
+Element
+	Content
+	
+
+	Page Title
+	Contact Launch 360
+	Support & Sales
+	Meta Description
+	Get in touch with Launch 360. Sales inquiries, support requests, or general questions. We'll respond within 1-3 business days depending on your plan.
+	
+
+	URL
+	/contact/
+	
+
+	H1
+	Get in Touch
+	
+
+	________________
+
+
+Section 1: Contact Options (3 columns)
+Option 1: Sales Inquiries
+Element
+	Content
+	Headline
+	Sales Inquiries
+	Description
+	Ready to see Launch 360 in action? Book a personalized demo with our team.
+	CTA
+	Book a Demo →
+	Response Time
+	Within 24 hours
+	Option 2: Support
+Element
+	Content
+	
+
+	
+
+	Headline
+	Technical Support
+	
+
+	
+
+	Description
+	Need help with your account, survey setup, or report access? Contact our support team.
+	
+
+	
+
+	CTA
+	Submit Support Request →
+	
+
+	
+
+	Response Time
+	Basic: 3-5 days
+	Pro: 2-3 days
+	Enterprise: 1-2 days
+	Option 3: General Inquiries
+Element
+	Content
+	Headline
+	General Inquiries
+	Description
+	Partnerships, media inquiries, or other questions.
+	CTA
+	Send Message →
+	Response Time
+	Within 3 business days
+	________________
+
+
+Section 2: Help Center Link
+Element
+	Content
+	Headline
+	Visit our Help Center
+	Description
+	Find answers to common questions about getting started, creating surveys, inviting raters, and interpreting reports.
+	CTA
+	Browse Help Center →
+	Link
+	/help/
+	
+
+Part 8: Technical Requirements Summary
+Requirement
+	Purpose
+	Priority
+	UTM tracking on all forms
+	Source-to-revenue attribution
+	Critical
+	GA4 e-commerce tracking
+	Revenue and purchase events
+	Critical
+	Klaviyo integration
+	Email capture flows sync
+	High
+	Survey preview functionality
+	Demo surveys without login
+	High
+	Sample report download (gated)
+	Lead generation
+	High
+	FAQ schema markup
+	Rich snippets in search results
+	High
+	Breadcrumb navigation
+	SEO + user experience
+	Medium
+	Mobile-responsive design
+	40%+ traffic is mobile
+	Critical
+	Fast load times (LCP <2.5s)
+	Core Web Vitals compliance
+	High
+	SSL/security badges
+	Trust signals
+	Critical
+	No AI-generated faces with distorted eyes
+	Brand authenticity (per attention analysis)
+	Medium
+	Appropiate V1 - V2 redirections 301
+	Do not lose traffic
+	Critical

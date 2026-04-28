@@ -1196,3 +1196,185 @@ p {
 .dropdown-toggle {
     cursor: pointer;
 }
+
+/* ================= Survey Library Page Styles ================= */
+
+/* Survey Grid Section */
+.survey-grid-section {
+    padding: var(--space-lg) 0;
+}
+
+.survey-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.survey-card {
+    background: var(--clr-white);
+    padding: 1.75rem;
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--clr-border);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.survey-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(233, 106, 32, 0.2);
+}
+
+.survey-card h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--clr-text-primary);
+    margin: 0;
+}
+
+.survey-card p {
+    font-size: 0.95rem;
+    color: var(--clr-text-secondary);
+    margin: 0;
+    flex-grow: 1;
+}
+
+.survey-tag {
+    display: inline-block;
+    background: var(--clr-beige-dark);
+    color: var(--clr-text-secondary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    width: fit-content;
+}
+
+/* Customization Section */
+.customization-section {
+    padding: var(--space-lg) 0;
+}
+
+.customization-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.customization-description {
+    font-size: 1.1rem;
+    color: var(--clr-text-secondary);
+    margin-bottom: var(--space-md);
+}
+
+.customization-features {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-md);
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: var(--clr-white);
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--clr-border);
+}
+
+.feature-item .feature-icon {
+    font-size: 1.5rem;
+}
+
+.feature-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--clr-text-primary);
+}
+
+.customization-cta {
+    margin-top: var(--space-md);
+}
+
+/* FAQ Section Styles for Templates Page */
+.faq-section {
+    padding: var(--space-lg) 0;
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}
+
+.faq-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1.25rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: var(--clr-text-primary);
+    font-family: var(--font-primary);
+}
+
+.faq-question:hover {
+    color: var(--clr-orange);
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--clr-orange);
+    transition: var(--transition);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-answer p {
+    padding-bottom: 1.25rem;
+    color: var(--clr-text-secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .survey-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .customization-features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item {
+        width: 100%;
+        max-width: 350px;
+    }
+}
