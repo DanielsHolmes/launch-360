@@ -1378,3 +1378,237 @@ p {
         max-width: 350px;
     }
 }
+
+/* ================= Personal Impact Survey Page Styles ================= */
+
+/* Eyebrow */
+.eyebrow {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(233, 106, 32, 0.1), rgba(233, 106, 32, 0.2));
+    color: var(--clr-orange);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+/* What It Is Section */
+.what-it-is-section {
+    padding: var(--space-lg) 0;
+}
+
+.key-points-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-top: var(--space-md);
+}
+
+.key-point {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.key-point-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.key-point p {
+    font-size: 0.95rem;
+    color: var(--clr-text-secondary);
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .key-points-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .key-points-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Sample Report Section */
+.sample-report-section {
+    padding: var(--space-lg) 0;
+}
+
+.report-excerpts {
+    max-width: 800px;
+    margin: var(--space-md) auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.report-excerpt {
+    background: var(--clr-white);
+    padding: 2rem;
+    border-radius: var(--border-radius-md);
+    border-left: 4px solid var(--clr-orange);
+    box-shadow: var(--shadow-sm);
+}
+
+.theme-tag {
+    display: inline-block;
+    background: var(--clr-beige-dark);
+    color: var(--clr-text-secondary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.35rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.report-excerpt blockquote {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--clr-text-primary);
+    line-height: 1.7;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    border: none;
+}
+
+.report-excerpt cite {
+    font-size: 0.9rem;
+    color: var(--clr-text-secondary);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sample-report-cta {
+    text-align: center;
+    margin-top: var(--space-md);
+}
+
+/* Use Cases Section */
+.use-cases-section {
+    padding: var(--space-lg) 0;
+}
+
+.use-cases-section h2 {
+    text-align: center;
+    margin-bottom: var(--space-md);
+}
+
+.use-cases-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.use-case-card {
+    background: var(--clr-white);
+    padding: 2.5rem;
+    border-radius: var(--border-radius-md);
+    text-align: center;
+    border: 1px solid var(--clr-border);
+    transition: var(--transition);
+}
+
+.use-case-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(233, 106, 32, 0.2);
+}
+
+.use-case-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.use-case-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.use-case-card p {
+    font-size: 0.95rem;
+    color: var(--clr-text-secondary);
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .use-cases-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Who It's For Section */
+.who-its-for-section {
+    padding: var(--space-lg) 0;
+}
+
+.who-its-for-section h2 {
+    text-align: center;
+    margin-bottom: var(--space-md);
+}
+
+.audience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.audience-card {
+    background: var(--clr-white);
+    padding: 2rem;
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--clr-border);
+    transition: var(--transition);
+}
+
+.audience-card:hover {
+    border-color: rgba(233, 106, 32, 0.3);
+}
+
+.audience-card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    color: var(--clr-orange);
+}
+
+.audience-card p {
+    font-size: 0.95rem;
+    color: var(--clr-text-secondary);
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .audience-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Pricing Teaser Section */
+.pricing-teaser-section {
+    padding: var(--space-lg) 0;
+}
+
+.pricing-teaser-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing-teaser-content h2 {
+    margin-bottom: 1rem;
+}
+
+.pricing-ctas {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: var(--space-md);
+    flex-wrap: wrap;
+}
