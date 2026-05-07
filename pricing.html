@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Launch 360</title>
+    <meta name="description" content="Simple, transparent pricing for 360-degree feedback software. Basic ($855/mo), Pro ($1,710/mo), Enterprise ($3,420/mo), or one-time purchases. No hidden fees.">
+    <meta name="keywords" content="360 feedback software, 360 degree feedback tool, best 360 feedback tools">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .pricing-section {
+            padding: 4rem 0;
+            background-color: var(--clr-light);
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .pricing-card {
+            background: var(--clr-white);
+            border-radius: var(--border-radius-lg);
+            padding: 2.5rem;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--clr-border);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        .pricing-card.featured {
+            border: 2px solid var(--clr-orange);
+            transform: scale(1.05);
+        }
+        .pricing-card.featured:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+        .pricing-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .pricing-header h3 {
+            font-size: 1.5rem;
+            color: var(--clr-text-primary);
+            margin-bottom: 0.5rem;
+        }
+        .pricing-price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--clr-orange);
+        }
+        .pricing-duration {
+            font-size: 1rem;
+            color: var(--clr-text-secondary);
+            font-weight: 400;
+        }
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+            flex-grow: 1;
+        }
+        .pricing-features li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--clr-text-secondary);
+        }
+        .pricing-features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--clr-orange);
+            font-weight: bold;
+        }
+        .pricing-cta {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Launch 360</a>
+            <div class="nav-links">
+                <a href="how-it-works.html">How It Works</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Who We Serve <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="hr-talent-ld.html">HR, Talent & L&D</a>
+                        <a href="whoweserve/executive-coaching.html">Executive Coaches</a>
+                        <a href="leaders.html">Leaders & Executives</a>
+                    </div>
+                </div>
+                <a href="templates.html">Survey Library</a>
+                <a href="personal-impact-survey.html">Personal Impact</a>
+                <a href="reporting-analytics.html">Reporting & Analytics</a>
+                <a href="index.html#features">Features</a>
+                <a href="pricing.html" class="active">Pricing</a>
+            </div>
+            <div class="nav-actions">
+                <a href="/login" class="login-link">Log In</a>
+                <a href="index.html#demo" class="btn btn-primary">Book a Demo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <header class="hero section-spacing">
+        <div class="container hero-container">
+            <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1>Simple, Transparent Pricing</h1>
+                <p class="sub-headline">No hidden fees. No certification requirements. Choose the plan that fits your organization.</p>
+                <div class="hero-cta-group" style="justify-content: center;">
+                    <a href="index.html#demo" class="btn btn-primary btn-large">Book a Demo</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 2: Pricing Table -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="pricing-grid">
+                
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="pricing-price">$855<span class="pricing-duration">/mo</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Access to full platform</li>
+                        <li>Survey creation & customization</li>
+                        <li>Rater management</li>
+                        <li>PDF reporting</li>
+                        <li>Standard support</li>
+                    </ul>
+                    <div class="pricing-cta text-center">
+                        <a href="index.html#demo" class="btn btn-outline">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="pricing-price">$1,710<span class="pricing-duration">/mo</span></div>
+                        <p class="text-sm mt-2 text-muted">Most Popular</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><strong>Everything in Basic, plus:</strong></li>
+                        <li>Higher survey volume</li>
+                        <li>Multiple administrators</li>
+                        <li>Priority support</li>
+                        <li>Personal Impact Survey included</li>
+                    </ul>
+                    <div class="pricing-cta text-center">
+                        <a href="index.html#demo" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="pricing-price">$3,420<span class="pricing-duration">/mo</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><strong>Everything in Pro, plus:</strong></li>
+                        <li>Unlimited surveys</li>
+                        <li>Unlimited administrators</li>
+                        <li>Dedicated success manager</li>
+                        <li>Custom integration support</li>
+                        <li>SLA guarantees</li>
+                    </ul>
+                    <div class="pricing-cta text-center">
+                        <a href="index.html#demo" class="btn btn-outline">Contact Sales</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center mt-5">
+                <p>Looking for one-time purchases? <a href="index.html#demo">Contact us</a> for more details.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: FAQ -->
+    <section class="faq-section section-spacing">
+        <div class="container container-sm">
+            <div class="section-header text-center">
+                <h2>Frequently asked questions about pricing</h2>
+            </div>
+            
+            <div class="faq-accordion mt-4">
+                <div class="faq-item">
+                    <button class="faq-question">What's included in each plan? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>All plans include access to the full platform: survey creation, customization, rater management, and PDF reporting. Differences are in survey volume, number of administrators, support level, and inclusion of the Personal Impact Survey.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Can I upgrade or downgrade my plan? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes. Upgrades take effect immediately. Downgrades take effect at your next billing date. Unused surveys remain in your account.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">What happens to unused surveys? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Unused surveys never expire. They remain in your account until you use them — even if you change or cancel your plan.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Is there a free trial? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>We offer a free demo where you can see the platform in action and preview sample reports. Contact us to schedule.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Do surveys expire? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>No. Surveys you've purchased never expire, even after cancellation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Can I choose which questions are on a survey? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes. All surveys offer full customization using our library of over 400 questions.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Is certification really not required? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Correct. Launch 360 has no certification requirement. Book a demo and start your first assessment.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Do you offer discounts? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Yes. Volume discounts are available. Contact our sales team for details.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container content-between">
+            <div class="footer-brand">
+                <h3>Launch 360</h3>
+                <p>Leadership insight accessible to every organization.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
