@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | Launch 360</title>
+    <meta name="description" content="Consolidated frequently asked questions about Launch 360 feedback surveys, reports, and pricing plans. Find answers to common questions about setting up reviews and raters.">
+    <meta name="keywords" content="launch 360 faq, 360 feedback questions, survey pricing help, rater confidentiality">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <style>
+        /* Page-specific styles for FAQ page */
+        .faq-hero {
+            padding-top: calc(var(--space-xl) + 40px);
+            padding-bottom: var(--space-md);
+            text-align: center;
+            background: linear-gradient(180deg, rgba(247, 244, 241, 1) 0%, rgba(253, 253, 252, 1) 100%);
+        }
+
+        .faq-hero h1 {
+            margin-bottom: 1rem;
+        }
+
+        .faq-page-content {
+            padding: var(--space-lg) 0;
+            background: var(--clr-white);
+        }
+
+        /* Tabs Navigation */
+        .faq-tabs-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            border-bottom: 2px solid var(--clr-border);
+            flex-wrap: wrap;
+            padding-bottom: 2px;
+        }
+
+        .faq-tab-btn {
+            padding: 1rem 2rem;
+            background: none;
+            border: none;
+            font-family: var(--font-primary);
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--clr-text-secondary);
+            cursor: pointer;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .faq-tab-btn:hover {
+            color: var(--clr-orange);
+        }
+
+        .faq-tab-btn.active {
+            color: var(--clr-orange);
+        }
+
+        .faq-tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--clr-orange);
+            border-radius: 3px;
+        }
+
+        /* Tabs Content */
+        .faq-tab-content {
+            display: none;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .faq-tab-content.active {
+            display: block;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Custom spacing inside FAQ answer */
+        .faq-answer p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--clr-text-secondary);
+        }
+
+        .faq-contact-box {
+            background: var(--clr-beige);
+            border: 1px solid var(--clr-border);
+            border-radius: var(--border-radius-md);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: var(--space-lg);
+        }
+
+        .faq-contact-box h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .faq-contact-box p {
+            color: var(--clr-text-secondary);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Launch 360</a>
+            <div class="nav-links">
+                <a href="how-it-works.html">How It Works</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Who We Serve <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="hr-talent-ld.html">HR, Talent & L&D</a>
+                        <a href="whoweserve/executive-coaching.html">Executive Coaches</a>
+                        <a href="leaders.html">Leaders & Executives</a>
+                    </div>
+                </div>
+                <a href="templates.html">Survey Library</a>
+                <a href="personal-impact-survey.html">Personal Impact</a>
+                <a href="reporting-analytics.html">Reporting & Analytics</a>
+                <a href="sample-report.html">Sample Report</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html">About Us</a>
+                <a href="faq.html" class="active">FAQ</a>
+            </div>
+            <div class="nav-actions">
+                <a href="/login" class="login-link">Log In</a>
+                <a href="index.html#demo" class="btn btn-primary">Book a Demo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="faq-hero section-spacing">
+        <div class="container">
+            <span class="eyebrow">Help Center</span>
+            <h1 class="fade-up">Frequently Asked Questions</h1>
+            <p class="sub-headline fade-up" style="transition-delay: 100ms;">Find answers regarding surveys, reporting features, pricing plans, and customization options.</p>
+        </div>
+    </header>
+
+    <!-- FAQ Section -->
+    <section class="faq-page-content">
+        <div class="container">
+            <!-- Navigation Tabs -->
+            <div class="faq-tabs-nav fade-up">
+                <button class="faq-tab-btn active" data-tab="faq-general">General & Surveys</button>
+                <button class="faq-tab-btn" data-tab="faq-reports">Reports & Analytics</button>
+                <button class="faq-tab-btn" data-tab="faq-pricing">Pricing & Subscriptions</button>
+            </div>
+
+            <!-- Tab Content: General & Surveys -->
+            <div class="faq-tab-content active" id="faq-general">
+                <div class="faq-accordion">
+                    <!-- Q1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What is a 360-degree feedback survey?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>A 360-degree feedback survey collects anonymous feedback from multiple perspectives — typically the leader being assessed (self), their manager, peers, and direct reports. This multi-rater approach provides a complete picture of leadership effectiveness, identifying strengths and development areas that might not be visible from a single perspective.</p>
+                        </div>
+                    </div>
+                    <!-- Q2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How many questions are in a typical 360 assessment?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Most Launch 360 surveys include 30-50 questions across 6-8 leadership competencies. However, you can customize the length based on your needs — shorter surveys for pulse checks, longer surveys for comprehensive development programs.</p>
+                        </div>
+                    </div>
+                    <!-- Q3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I customize the questions in a 360 survey?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. Every Launch 360 survey is fully customizable. Add or remove questions, edit rating scales, change competencies, and write custom open-ended prompts. You can also build entirely custom surveys from our library of over 400 questions.</p>
+                        </div>
+                    </div>
+                    <!-- Q4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How long does it take to complete a 360 survey?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Most raters complete a 360 survey in 10-15 minutes. Our surveys are designed to be comprehensive but not burdensome, with clear questions and intuitive rating scales.</p>
+                        </div>
+                    </div>
+                    <!-- Q5 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is 360 feedback confidential?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. By default, individual rater responses are anonymous. Only aggregated data is shown in reports. This encourages honest, constructive feedback.</p>
+                        </div>
+                    </div>
+                    <!-- Q6 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do I need certification to use Launch 360 surveys?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No. Launch 360 has no certification requirement — unlike older legacy platforms. Create an account, choose a template, and start your first assessment immediately.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Reports & Analytics -->
+            <div class="faq-tab-content" id="faq-reports">
+                <div class="faq-accordion">
+                    <!-- Q1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How quickly are reports generated?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Reports are generated instantly when the assessment closes. There is no manual compilation or waiting period. You can download the report as a clean PDF or share secure links immediately.</p>
+                        </div>
+                    </div>
+                    <!-- Q2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How do I share reports with leaders?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>As an administrator, you have complete control over sharing. You can share reports via a secure link directly on the platform or download them as PDFs to present or email to the leader being assessed, along with custom coaching notes.</p>
+                        </div>
+                    </div>
+                    <!-- Q3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I analyze data across multiple leaders?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. With our Pro and Enterprise plans, you get access to aggregate reporting which allows you to analyze leadership trends at the team, department, or organizational level. You can also export raw survey data in CSV formats for custom analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Pricing & Subscriptions -->
+            <div class="faq-tab-content" id="faq-pricing">
+                <div class="faq-accordion">
+                    <!-- Q1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What's included in each plan?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>All plans include full platform features: survey creation, survey library access, rater management, and instant PDF reporting. Basic plan provides core functionality; Pro includes unlimited use of the strengths-based Personal Impact Survey, higher survey volumes, and more admin seats; Enterprise unlocks aggregate reporting, custom integrations, and SLA guarantees.</p>
+                        </div>
+                    </div>
+                    <!-- Q2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I upgrade or downgrade my plan?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, plan adjustments are flexible. Upgrades take effect immediately, while downgrades take effect at your next billing cycle. Unused survey credits remain saved in your account.</p>
+                        </div>
+                    </div>
+                    <!-- Q3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What happens to unused surveys?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Unused surveys never expire. They remain in your account until you need to use them — even if you change or temporarily cancel your subscription plan.</p>
+                        </div>
+                    </div>
+                    <!-- Q4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is there a free trial?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We offer a live sandbox demo environment where you can review the platform interface, preview the survey library, and inspect sample reports. Contact our team to request access.</p>
+                        </div>
+                    </div>
+                    <!-- Q5 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do surveys expire?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No. Surveys you have purchased are forever valid. There is no time limit or expiration constraint on when you can launch them.</p>
+                        </div>
+                    </div>
+                    <!-- Q6 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I choose which questions are on a survey?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. All surveys are fully customizable. You can add, edit, or delete questions and rating scales, or build completely custom templates using our 400+ question bank.</p>
+                        </div>
+                    </div>
+                    <!-- Q7 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is certification really not required?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Correct. We've simplified the platform and reports so that no paid training or complex certifications are needed. You can sign up and start launching programs in minutes.</p>
+                        </div>
+                    </div>
+                    <!-- Q8 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do you offer discounts?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we support annual subscription discounts (save 20%) and volume discounts for large-scale enterprise deployments. We also support special non-profit and educational pricing. Contact sales to discuss.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Still Have Questions Box -->
+            <div class="faq-contact-box fade-up">
+                <h3>Still have questions?</h3>
+                <p>Can't find the answer you're looking for? Reach out to our customer support or book a demo with one of our assessment experts.</p>
+                <div class="final-cta-group" style="display: flex; gap: 1rem; justify-content: center;">
+                    <a href="index.html#demo" class="btn btn-primary">Book a Demo</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Support &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container content-between">
+            <div class="footer-brand">
+                <h3>Launch 360</h3>
+                <p>Leadership insight accessible to every organization.</p>
+            </div>
+            <div class="footer-links">
+                <a href="how-it-works.html">How It Works</a>
+                <a href="templates.html">Survey Library</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html">About Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="container text-center mt-3">
+            <p class="text-sm text-muted">&copy; 2026 Launch 360. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Tabs switching logic for FAQ categories
+        document.querySelectorAll('.faq-tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Deactivate current tabs
+                document.querySelectorAll('.faq-tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.faq-tab-content').forEach(c => c.classList.remove('active'));
+
+                // Activate selected tab
+                btn.classList.add('active');
+                const targetContent = document.getElementById(btn.dataset.tab);
+                targetContent.classList.add('active');
+
+                // Collapse all open accordion items when switching tabs
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                    const answer = item.querySelector('.faq-answer');
+                    const icon = item.querySelector('.faq-icon');
+                    if (answer) answer.style.maxHeight = '0';
+                    if (icon) icon.textContent = '+';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Launch 360 | Democratizing Leadership Insight</title>
+    <meta name="description" content="Launch 360 was founded to make leadership insight accessible to every organization. Meet founder Nicole Nadeau and learn why we're different.">
+    <meta name="keywords" content="about launch 360, Nicole Nadeau, leadership assessment founder, 360 feedback mission">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <style>
+        /* Page-specific styles for About page */
+        .about-hero {
+            padding-top: calc(var(--space-xl) + 40px);
+            padding-bottom: var(--space-lg);
+            text-align: center;
+            background: linear-gradient(180deg, rgba(247, 244, 241, 1) 0%, rgba(253, 253, 252, 1) 100%);
+        }
+
+        .about-hero h1 {
+            max-width: 900px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .about-hero .sub-headline {
+            margin: 0 auto;
+        }
+
+        .story-section {
+            background: var(--clr-white);
+            padding: var(--space-lg) 0;
+            border-bottom: 1px solid var(--clr-border);
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .story-text p {
+            font-size: 1.15rem;
+            line-height: 1.75;
+            color: var(--clr-text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .story-visual {
+            position: relative;
+            background: var(--clr-beige);
+            border-radius: var(--border-radius-lg);
+            padding: 2.5rem;
+            border: 1px solid var(--clr-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 350px;
+        }
+
+        .story-visual::before {
+            content: "";
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: rgba(233, 106, 32, 0.05);
+            border-radius: 50%;
+            top: -20px;
+            right: -20px;
+            z-index: 0;
+        }
+
+        .story-graphic {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .graphic-large {
+            font-size: 5rem;
+            font-weight: 800;
+            color: var(--clr-orange);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .graphic-label {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--clr-text-primary);
+        }
+
+        .bio-section {
+            background: var(--clr-beige);
+            padding: var(--space-lg) 0;
+        }
+
+        .bio-grid {
+            display: grid;
+            grid-template-columns: 0.9fr 1.1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .bio-image-wrapper {
+            position: relative;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            border: 4px solid var(--clr-white);
+        }
+
+        .bio-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .bio-image-wrapper:hover .bio-image {
+            transform: scale(1.03);
+        }
+
+        .bio-content h2 {
+            font-size: 2.25rem;
+            margin-bottom: 1.5rem;
+            color: var(--clr-text-primary);
+        }
+
+        .bio-content p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: var(--clr-text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .credentials-list {
+            list-style: none;
+            margin: 2rem 0;
+            padding: 0;
+        }
+
+        .credentials-list li {
+            position: relative;
+            padding-left: 2.25rem;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--clr-text-primary);
+            display: flex;
+            align-items: center;
+        }
+
+        .credentials-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            width: 24px;
+            height: 24px;
+            background: rgba(233, 106, 32, 0.1);
+            color: var(--clr-orange);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        .evolution-section {
+            background: var(--clr-white);
+            padding: var(--space-lg) 0;
+        }
+
+        .evolution-container {
+            max-width: var(--container-width-sm);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .evolution-content p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--clr-text-secondary);
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .evolution-highlight-box {
+            background: linear-gradient(135deg, rgba(233, 106, 32, 0.03), rgba(233, 106, 32, 0.08));
+            border-left: 4px solid var(--clr-orange);
+            padding: 2rem;
+            border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .evolution-highlight-box h4 {
+            color: var(--clr-orange);
+            font-size: 1.2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .evolution-highlight-box p {
+            font-size: 1.05rem;
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        /* Responsive styles for About page */
+        @media (max-width: 900px) {
+            .story-grid, .bio-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+
+            .story-visual {
+                min-height: auto;
+                padding: 2rem;
+            }
+
+            .bio-image-wrapper {
+                max-width: 450px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Launch 360</a>
+            <div class="nav-links">
+                <a href="how-it-works.html">How It Works</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Who We Serve <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="hr-talent-ld.html">HR, Talent & L&D</a>
+                        <a href="whoweserve/executive-coaching.html">Executive Coaches</a>
+                        <a href="leaders.html">Leaders & Executives</a>
+                    </div>
+                </div>
+                <a href="templates.html">Survey Library</a>
+                <a href="personal-impact-survey.html">Personal Impact</a>
+                <a href="reporting-analytics.html">Reporting & Analytics</a>
+                <a href="sample-report.html">Sample Report</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html" class="active">About Us</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+            <div class="nav-actions">
+                <a href="/login" class="login-link">Log In</a>
+                <a href="index.html#demo" class="btn btn-primary">Book a Demo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="about-hero section-spacing">
+        <div class="container">
+            <span class="eyebrow">About Launch 360</span>
+            <h1 class="fade-up">Making Leadership Insight Accessible to Every Organization</h1>
+            <p class="sub-headline fade-up" style="transition-delay: 100ms;">Simple, powerful 360 feedback that removes the barriers of traditional assessments.</p>
+        </div>
+    </header>
+
+    <!-- Section 1: Our Story -->
+    <section class="story-section">
+        <div class="container story-grid">
+            <div class="story-text fade-up">
+                <h2 class="eyebrow" style="background: none; padding: 0;">Our Story</h2>
+                <p>Launch 360 was founded by Nicole Nadeau, a 25+ year HR executive who saw firsthand how expensive and complex leadership assessments were. Traditional 360 providers required expensive consultants, mandatory certification, and weeks of setup — putting actionable leadership insights out of reach for most organizations.</p>
+                <p>Launch 360 was built to change that. Our platform removes every barrier — no certification, no consulting fees, no IT delays. Just simple, powerful 360 feedback that any organization can use.</p>
+            </div>
+            <div class="story-visual fade-up" style="transition-delay: 150ms;">
+                <div class="story-graphic">
+                    <div class="graphic-large">25+</div>
+                    <div class="graphic-label">Years of Experience Built In</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Meet Nicole Nadeau -->
+    <section class="bio-section">
+        <div class="container bio-grid">
+            <div class="bio-image-wrapper fade-up">
+                <img src="nicole-nadeau.png" alt="Nicole Nadeau - Founder of Launch 360" class="bio-image">
+            </div>
+            <div class="bio-content fade-up" style="transition-delay: 150ms;">
+                <h2>Meet Nicole Nadeau, Founder</h2>
+                <p>Nicole Nadeau brings over 27 years of executive HR and leadership development experience. She has held senior HR leadership roles at Thomson Financial and other global organizations, where she designed and implemented leadership assessment programs for thousands of leaders.</p>
+                <p>As an executive coach and leadership consultant, Nicole saw the gap between what organizations needed — simple, accessible 360 feedback — and what legacy providers offered. She founded Launch 360 to democratize leadership insight, making it available to any organization, regardless of budget or internal expertise.</p>
+                
+                <ul class="credentials-list">
+                    <li>25+ years executive HR experience</li>
+                    <li>Certified Executive Coach</li>
+                    <li>Leadership development consultant</li>
+                    <li>SHRM Senior Certified Professional (SHRM-SCP)</li>
+                </ul>
+
+                <a href="https://www.linkedin.com/in/nicolenadeau" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    Connect on LinkedIn &rarr;
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Why We Evolved Launch 360 -->
+    <section class="evolution-section">
+        <div class="container evolution-container">
+            <div class="section-header text-center">
+                <span class="eyebrow">Why We Evolved Launch 360</span>
+                <h2>Transition to a Continuous Feedback SaaS Platform</h2>
+            </div>
+            <div class="evolution-content fade-up">
+                <p>Launch 360 originally launched as a one-off assessment tool. But we heard the same feedback from customers: <em>"We want to use this more than once every 18 months."</em></p>
+                <p>Our enhanced version is our transition to a subscription SaaS platform. Now organizations can run continuous feedback programs — not just annual assessments. With this new offer, you get recurring surveys, aggregate reporting across time, and our exclusive Personal Impact Survey. Same simplicity. More power.</p>
+                
+                <div class="evolution-highlight-box">
+                    <h4>Continuous Growth, Simplified</h4>
+                    <p>Subscribing gives you the freedom to run baseline assessments, track progress with quarterly pulse checks, and run targeted developmental surveys without ever calculating individual invoice costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta section-spacing" style="background: linear-gradient(135deg, rgba(233, 106, 32, 0.05), rgba(233, 106, 32, 0.1));">
+        <div class="container text-center">
+            <h2>Ready to make leadership insight accessible?</h2>
+            <p class="sub-headline text-center" style="margin: 0 auto 2rem;">No certification. No consulting fees. Just actionable leadership insights.</p>
+            <div class="final-cta-group" style="display: flex; gap: 1rem; justify-content: center;">
+                <a href="index.html#demo" class="btn btn-primary btn-large">Book a Demo</a>
+                <a href="templates.html" class="btn btn-outline btn-large">Explore Survey Library &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container content-between">
+            <div class="footer-brand">
+                <h3>Launch 360</h3>
+                <p>Leadership insight accessible to every organization.</p>
+            </div>
+            <div class="footer-links">
+                <a href="how-it-works.html">How It Works</a>
+                <a href="templates.html">Survey Library</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html">About Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="container text-center mt-3">
+            <p class="text-sm text-muted">&copy; 2026 Launch 360. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
