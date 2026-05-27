@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Launch 360 | Support & Sales</title>
+    <meta name="description" content="Get in touch with Launch 360. Sales inquiries, support requests, or general questions. We'll respond within 1-3 business days depending on your plan.">
+    <meta name="keywords" content="contact launch 360, customer support, sales inquiries, technical support">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Contact-specific styles */
+        .contact-options {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 900px) {
+            .contact-options {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .contact-card {
+            background: var(--clr-white);
+            padding: 2.5rem;
+            border-radius: var(--border-radius-md);
+            border: 1px solid var(--clr-border);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(233, 106, 32, 0.3);
+        }
+
+        .contact-card .icon-wrapper {
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, rgba(233, 106, 32, 0.1), rgba(233, 106, 32, 0.2));
+            border: 1px solid rgba(233, 106, 32, 0.3);
+        }
+
+        .contact-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--clr-text-primary);
+        }
+
+        .contact-card p {
+            color: var(--clr-text-secondary);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .response-time {
+            display: inline-block;
+            background: rgba(233, 106, 32, 0.1);
+            color: var(--clr-orange);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        .help-center-section {
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .help-center-section h2 {
+            margin-bottom: 1rem;
+        }
+
+        .help-center-section p {
+            color: var(--clr-text-secondary);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Launch 360</a>
+            <div class="nav-links">
+                <a href="how-it-works.html">How It Works</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Who We Serve <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="hr-talent-ld.html">HR, Talent & L&D</a>
+                        <a href="whoweserve/executive-coaching.html">Executive Coaches</a>
+                        <a href="leaders.html">Leaders & Executives</a>
+                    </div>
+                </div>
+                <a href="templates.html">Survey Library</a>
+                <a href="personal-impact-survey.html">Personal Impact</a>
+                <a href="reporting-analytics.html">Reporting & Analytics</a>
+                <a href="sample-report.html">Sample Report</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html">About Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="/login" class="login-link">Log In</a>
+                <a href="#demo" class="btn btn-primary">Book a Demo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <header class="hero section-spacing">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Get in Touch</h1>
+                <p class="sub-headline">Sales inquiries, support requests, or general questions — we're here to help. Find the right contact option for your needs.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: Contact Options -->
+    <section class="section-spacing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>How can we help you?</h2>
+            </div>
+
+            <div class="contact-options">
+                <!-- Option 1: Sales Inquiries -->
+                <div class="contact-card fade-up">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="8.5" cy="7" r="4"/>
+                            <line x1="20" y1="8" x2="20" y2="14"/>
+                            <line x1="23" y1="11" x2="17" y2="11"/>
+                        </svg>
+                    </div>
+                    <h3>Sales Inquiries</h3>
+                    <p>Ready to see Launch 360 in action? Book a personalized demo with our team.</p>
+                    <a href="/demo/" class="btn btn-primary">Book a Demo &rarr;</a>
+                    <div class="response-time">Response: Within 24 hours</div>
+                </div>
+
+                <!-- Option 2: Technical Support -->
+                <div class="contact-card fade-up" style="transition-delay: 100ms;">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3>Technical Support</h3>
+                    <p>Need help with your account, survey setup, or report access? Contact our support team.</p>
+                    <a href="mailto:support@launch360.com" class="btn btn-primary">Submit Support Request &rarr;</a>
+                    <div class="response-time">Response: Basic 3-5 days | Pro 2-3 days | Enterprise 1-2 days</div>
+                </div>
+
+                <!-- Option 3: General Inquiries -->
+                <div class="contact-card fade-up" style="transition-delay: 200ms;">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3>General Inquiries</h3>
+                    <p>Partnerships, media inquiries, or other questions not covered above.</p>
+                    <a href="mailto:info@launch360.com" class="btn btn-primary">Send Message &rarr;</a>
+                    <div class="response-time">Response: Within 3 business days</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Help Center Link -->
+    <section class="section-spacing bg-light help-center-section">
+        <div class="container">
+            <h2>Visit our Help Center</h2>
+            <p>Find answers to common questions about getting started, creating surveys, inviting raters, and interpreting reports.</p>
+            <a href="/help/" class="btn btn-outline">Browse Help Center &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container content-between">
+            <div class="footer-brand">
+                <h3>Launch 360</h3>
+                <p>Leadership insight accessible to every organization.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
